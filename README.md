@@ -24,18 +24,59 @@ TowerFall is a text based, multiple choice operating system.
 
 Consider it a hiarachy:
 
-King
-Exier: Ancient Exile and Turncloak Solider
+The King:
+ _____________________
+|                     |                     
+|                     |
+|   |\    / \    /|   |
+|   | \  /   \  / |   |
+|   |  \/     \/  |   |
+|   |             |   |
+|   |_____________|   |
+|_____________________|
+
+Exier: Ancient Exile and Turncloak Solider:
+
+ _____________________
+|                     |                     
+|    _____________    |
+|   |   __________|   |
+|   |   |______       |
+|   |    ______|      |
+|   |   |_________    |
+|   |_____________|   |
+|_____________________|
+
 Archers
+
+ ____________________
+|                     |                     
+|                     |
+|                     |
+|                     |
+|                     |
+|                     |
+|                     |
+|_____________________|
 Jarvis
+
+ ____________________
+|                     |                     
+|                     |
+|                     |
+|                     |
+|                     |
+|                     |
+|                     |
+|_____________________|
 
 Each character represents a different set of questions.
 
-Availble Options:
+Those questions would load sequence triggered, availble Options like so:
 
 1)These set of questions have their own set of menus.
 
-2)Then each set of menus have their own questions.
+2)Then each set of menus have their own  submenus.
 
 Think of it this way:
 
@@ -45,3 +86,8 @@ Available Optionss:
 2)You access Archers through Exier
 3)You access Jarvis throu Archers
 
+Why, you ask?
+
+We feel It should be a challenge to access some of the tools included in this operating system.
+
+"We feel the people who don't see how far the rabbit hole goes, shouldn't play with some of the tools included in this operating system." - Turncloak-Exile.com
