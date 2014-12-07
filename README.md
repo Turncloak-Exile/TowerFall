@@ -18,7 +18,7 @@
 ```
 =========
 
-TowerFall is a text based, multiple choice operating system.
+echo -e "\e[0;TowerFall is a text based, multiple choice operating system.
 
  Choice1) Designed to do everything you want in text mode boot.
 
@@ -85,6 +85,7 @@ Available Optionss:
 1)You access Exier Through King
 2)You access Archers through Exier
 3)You access Jarvis throu Archers
+4)Kinda like a relay..
 
 Why, you ask?
 
