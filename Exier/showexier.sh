@@ -6,7 +6,7 @@ ANSWER_OPTIONS="3"
 ANSWER_QUESTS="4"
 ANSWER_VS="5"
 ANSWER_MAINMENU="10"
-
+#popper scooper
 until [ "$ANSWER" == "$ANSWER_MAINMENU" ];
 do
 
