@@ -1,0 +1,84 @@
+Code	Description
+1	A "(" was expected.
+2	A field was expected.
+3	The command may be executed only on a field in a subtable.
+4	Parameters in the list must all be of the same type.
+5	There is no table to which to apply the command.
+6	The command may only be executed on a Subtable type field.
+7	A Numeric argument was expected.
+8	An Alphanumeric argument was expected.
+9	The result of a conditional test was expected.
+10	The command cannot be applied to this field type.
+11	The command cannot be applied between two conditional tests.
+12	The command cannot be applied between two Numeric arguments.
+13	The command cannot be applied between two Alphanumeric arguments.
+14	The command cannot be applied between two Date arguments.
+15	The operation is not compatible with the two arguments.
+16	The field has no relation.
+17	A table was expected.
+18	Field types are incompatible.
+19	The field is not indexed.
+20	An "=" was expected.
+21	The method does not exist.
+22	The fields must belong to the same table or subtable for a sort or graph.
+23	A "<" or ">" was expected.
+24	A ";" was expected.
+25	There are too many fields for a sort.
+26	The field type cannot be Text, Picture, Blob or Subtable.
+27	The field must be prefixed by the name of its table.
+28	The field type must be Numeric.
+29	The value must be 1 or 0.
+30	A variable was expected.
+31	There is no menu bar with this number.
+32	A date was expected.
+33	Unimplemented command or function.
+34	Accounting files are not open.
+35	The sets are from different tables.
+36	Invalid table name.
+37	A ":=" was expected.
+38	This is a function, not a procedure.
+39	The set does not exist.
+40	This is a procedure, not a function.
+41	A variable or field belonging to a subtable was expected.
+42	The record cannot be pushed onto the stack.
+43	The function cannot be found.
+44	The method cannot be found.
+45	Field or variable expected.
+46	A Numeric or Alphanumeric argument was expected.
+47	The field type must be Alphanumeric.
+48	Syntax error.
+49	This operator cannot be used here.
+50	These operators cannot be used together.
+51	Module not implemented.
+52	An array was expected.
+53	Indice out of range.
+54	Argument types are incompatible.
+55	A Boolean argument was expected.
+56	Field, variable, or table expected.
+57	An operator was expected.
+58	A ")" was expected.
+59	This kind of argument was not expected here.
+60	A parameter or a local variable cannot be used in an EXECUTE statement
+	in a compiled database.
+61	The type of an array cannot be modified in a compiled database.
+62	The command cannot be applied to a subtable.
+63	The field is not indexed.
+64	A picture field or variable was expected.
+65	The value should contain 4 characters.
+66	The value should not contain more than 3 characters.
+67	This command cannot be executed on 4D Server.
+68	A list was expected.
+69	An external window reference was expected.
+70	The command cannot be applied between two Picture arguments.
+71	The SET PRINT MARKER command can only be called in the header of a form being
+	printed.
+72	A pointer array was expected.
+73	A numeric array was expected.
+74	The size of arrays does not match.
+75	No pointer on local arrays.
+76	Bad array type.
+77	Bad variable name.
+78	Invalid sort parameter.
+79	This command cannot be executed during the draw of a list.
+80	Too many query arguments.
+81	The form was not found.
