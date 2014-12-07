@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sleep 1
-echo -e "\e[0;31mQuest Archer: Loading Quests"
+echo -e "\e[0;31mQuest Archer: Loading Quests";
 sleep 2
 echo -e "\e[0;31mQuest Archer: Quests Available:
 
@@ -18,4 +18,6 @@ echo -e "\e[0;31mQuest Archer: Quests Available:
 11)Towerforge
 12)Ascension
 13)Gauntlet
-14)Gauntlet II"
+14)Gauntlet II";
+
+echo -e "\e[0;31mQuest Archer: Which Quest do you want to launch?";
