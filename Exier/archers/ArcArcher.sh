@@ -14,11 +14,20 @@ echo -e "\e[0;31mArchives Archer: Loading libary";
 sleep 2
 echo -e "\e[0;31mArchives Archer: Archives Available:
 
-1)Archers
-2)Art
-3)Useful documents
-4)Credits
-5)Back to Exier";
+    _______________________________________ 
+   |                                       |
+   |                                       |
+   |           3)Useful Documents          |
+   |                                       |
+   |            5)Back to Exier            |
+   |                                       |
+   |              1)Archers                |
+   |                                       |
+   |              4)Credits                |
+   |                                       |
+   |                2)Art                  |
+   |                                       |
+   |_______________________________________|";
 
 echo -e "\e[0;31mArchives Archer: Which Archive would you like to visit?";
 

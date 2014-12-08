@@ -22,25 +22,40 @@ do
 sleep 1
 echo -e "\e[0;31mQuest Archer: Loading Quests";
 sleep 2
-echo -e "\e[0;31mQuest Archer: Quests Available:";
+echo -e "\e[0;31mQuest Archer: Quests Available:
 
-echo -e "\e[0;37m1)Sacred Ground";
-echo -e "\e[0;37m2)Twilight Spire";
-echo -e "\e[0;37m3)Backfire";
-echo -e "\e[0;37m4)Flight";
-echo -e "\e[0;37m5)Mirage";
-echo -e "\e[0;37m7)Frostfang Keep";
-echo -e "\e[1;33m8)Kings Court";
-echo -e "\e[1;33m9)Sunken City";
-echo -e "\e[1;33m10)Moonstone";
-echo -e "\e[1;33m11)Towerforge";
-echo -e "\e[1;34m12)Ascension";
-echo -e "\e[1;34m13)Gauntlet";
-echo -e "\e[1;34m14)Gauntlet II";
-echo -e "\e[1;34m15)Exit to Exier";
-
-echo -e "\e[0;31mQuest Archer: Available Quests: ";
-sleep 1
+    _______________________________________ 
+   |                                       |
+   |                                       |
+   |          7)Frostfang Keep             |
+   |                                       |
+   |          2)Twighlight Spire           |
+   |                                       |
+   |           15)Exit to Exier            |
+   |                                       |
+   |            1)Sacred Ground            |
+   |                                       |
+   |             9)Sunken City             |
+   |                                       |
+   |             8)Kings Court             |
+   |                                       |
+   |             11)Towerforge             |
+   |                                       |
+   |              10)Moonstone             |
+   |                                       |
+   |              12)Ascension             |
+   |                                       |
+   |               4)Flight                |
+   |                                       |
+   |             14)Gauntlet II            |
+   |                                       |
+   |              3)Backfire               |
+   |                                       |
+   |               5)Mirage                |
+   |                                       |
+   |              13)Gauntlet              |
+   |                                       |
+   |_______________________________________|";
 
 read ANSWER
 

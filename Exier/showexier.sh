@@ -11,13 +11,23 @@ until [ "$ANSWER" == "$ANSWER_MAINMENU" ];
 do
 
 echo -e "\e[1;32mExier: Available Options:
-
-1)Archers
-2)Archives
-3)Options
-4)Quests
-5)Vs
-10)Back to King";
+                                      
+    _______________________________________ 
+   |                                       |
+   |                                       |
+   |           10)Back to King             |
+   |                                       |    
+   |             2)Archives                |
+   |                                       |
+   |              3)Options                |
+   |                                       |
+   |              4)Quests                 |
+   |                                       |
+   |              1)Archers                |
+   |                                       |
+   |                5)Vs                   |
+   |                                       |
+   |_______________________________________|"
 
 read ANSWER
 

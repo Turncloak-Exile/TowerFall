@@ -12,11 +12,18 @@ do
 sleep 1
 echo -e "\e[1;32mExier: Archers Available:
 
-1)Options Archer
-2)Archives Archer
-3)Vs Archer
-4)Quest Archer
-10)Main Menu"
+    _______________________________________ 
+   |                                       |
+   |                                       |
+   |           2)Archives Archer           |
+   |                                       |    
+   |            1)Options Archer           |
+   |                                       |
+   |             3)Quest Archer            |
+   |                                       |
+   |              10)Main Menu             |
+   |                                       |
+   |_______________________________________|"
 
 read ANSWER
 

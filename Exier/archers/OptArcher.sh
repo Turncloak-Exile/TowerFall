@@ -11,6 +11,21 @@ do
 
 echo -e "\e[0;32mOptions Archer: Current options available:
 
+    _______________________________________ 
+   |                                       |
+   |                                       |
+   |          5)Exit to Exier Menu         |
+   |                                       |
+   |            1)Launch Jarvis            |
+   |                                       |
+   |             3)Wallpapers              |
+   |                                       |
+   |              2)Manuals                |
+   |                                       |
+   |              4)Credits                |
+   |                                       |
+   |_______________________________________|";
+
 1)Launch Jarvis
 2)Manuals
 3)Wallpapers
