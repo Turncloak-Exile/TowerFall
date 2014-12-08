@@ -15,12 +15,13 @@ echo "Available servers
 	7)
 	8)"
 
-echo What server would you like to connect to?
+echo What server would you like to connect to?;
 sleep 1
 
 read ANSWER
 
-if [ "$ANSWER" == "$ANSWER_443" ]; then 
+if [ "$ANSWER" == "$ANSWER_443" ]; 
+	then 
 	sleep 1
 	echo -e "\e[1;31mJarvisC: Connecting to udp53 \e[0m"
 	sleep 2
@@ -28,7 +29,8 @@ if [ "$ANSWER" == "$ANSWER_443" ]; then
 	sleep 1
 
 
-elif [ "$ANSWER" == "$ANSWER_53" ]; then 
+elif [ "$ANSWER" == "$ANSWER_53" ]; 
+	then 
 	sleep 1
 	echo -e "\e[1;31mJarvisC: Connecting to tcp443 \e[0m"
 	sleep 2

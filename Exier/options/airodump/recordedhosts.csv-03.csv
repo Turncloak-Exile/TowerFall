@@ -1,7 +1,0 @@
-
-BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
-9C:D3:6D:2D:86:30, 2014-12-05 21:58:25, 2014-12-05 21:58:39,  1,  54, WPA2WPA , CCMP TKIP,PSK, -66,       21,        0,   0.  0.  0.  0,  11, VM192664-2G, 
-
-Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
-70:18:8B:38:6F:61, 2014-12-05 21:58:32, 2014-12-05 21:58:32, -33,        3, 9C:D3:6D:2D:86:30,
-
