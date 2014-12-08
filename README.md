@@ -7,7 +7,7 @@
       |__|_|  /_   \  |  |\    /|  | |_|___   | |>  |  |___|      /  _ _\  |_|     |_|
       |____| /  /\__\  \_|_\/\/_|_/  |_ ___|  |____/   |___|     /__/_\  \ | |     | |
       |  | | \  \/  /   \________/   |_|___   |_|\_\   |_|_|     |___|___| |_|___  |_|___
-      |__|_|  \____/	  \__/\__/    |_|___|  |_| \_|  ||_/	     |__/ \__| |_____| |_____|	
+      |__|_|  \____/     \__/\__/    |_|___|  |_| \_|  ||_/	     |__/ \__| |_____| |_____|	
       |    |                                           | /        
       |____|                                           |/
       |_ _/                                         _
@@ -25,6 +25,7 @@ TowerFall is a text based, multiple choice operating system. Your choices are nu
 Example of layout:
 
 1)This is option 1
+
 2)This is option 2
 
 Consider Towerfall as a hiarachy of instructions:
