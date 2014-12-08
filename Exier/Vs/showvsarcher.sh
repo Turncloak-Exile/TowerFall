@@ -44,6 +44,9 @@ elif [ "$ANSWER" == "$ANSWER_YOUVSTARGET" ];
 elif [ "$ANSWER" == "$ANSWER_EXIERMENU" ];
 	then
 	echo -e "\e[1;34mVs Archer: Returning to Exier Menu"
+else
+	then
+	echo -e "\e[1;34mVs Archer: Unrecognised response. Reloading Vs Archer Menu"
 fi
 done
 	
