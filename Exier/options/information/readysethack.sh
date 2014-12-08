@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo Currently undergoing maintenance
-sleep 2
+echo -e "\e[0;34mJarvisA: Launching Ready Set Hack Program"
+exier/options/jarvis/JarvisA.sh
