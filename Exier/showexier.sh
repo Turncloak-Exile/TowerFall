@@ -17,46 +17,46 @@ echo -e "\e[1;32mExier: Available Options:
 3)Options
 4)Quests
 5)Vs
-10)Back to King"
+10)Back to King";
 
 read ANSWER
 
 if [ "$ANSWER" == "$ANSWER_ARCHERS" ];
 	then
 	sleep 1
-	echo -e "\e[1;32mExier: Loading Archers"
+	echo -e "\e[1;32mExier: Loading Archers";
 	sleep 1
 	exier/archers/showarchers.sh
 
 elif [ "$ANSWER" == "$ANSWER_ARCHIVES" ];
 	then
-	echo -e "\e[1;32mExier: Loading Archives"
+	echo -e "\e[1;32mExier: Loading Archives";
 	sleep 1
 	exier/archives/showarchives.sh
 
 elif [ "$ANSWER" == "ANSWER_OPTIONS" ];
 	then
-	echo -e "\e[1;32mExier: Loading Options"
+	echo -e "\e[1;32mExier: Loading Options";
 	sleep 1
 	exier/options/showoptions.sh
 
 elif [ "$ANSWER" == "ANSWER_QUEST" ];
 	then
-	echo -e "\e[1;32mExier: Loading Quests"
+	echo -e "\e[1;32mExier: Loading Quests";
 	sleep 1
 	exier/archers/QuestArcher.sh
 
 elif [ "$ANSWER" == "ANSWER_VSARCHER" ];
 	then
-	echo -e "\e[1;32mExier: Loading Vs Archer"
+	echo -e "\e[1;32mExier: Loading Vs Archer";
 	sleep 1
 	exier/archers/VsArcher.sh
 
 elif [ "$ANSWER" == "ANSWER_BACKTOKING" ];
 	then
-	echo -e "\e[1;32mExier: Returning to King"
+	echo -e "\e[1;32mExier: Returning to King";
 else
-	echo -e "\e[1;32mExier: Unrecogised Response. Reloading Options"	
+	echo -e "\e[1;32mExier: Unrecogised Response. Reloading Options";	
 	sleep 1
 fi
 done
