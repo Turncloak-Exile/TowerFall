@@ -20,9 +20,9 @@
 
 TowerFall is a text based, multiple choice operating system.
 
- Choice1) Designed to do be simple, efficient, qwerky and powerfull.
+ Choices) Designed to do be simple, efficient, qwerky and powerfull.
 
-Consider it a hiarachy:
+Consider Towerfall as a hiarachy on instructions:
 ```
 The King:
  _____________________
@@ -30,7 +30,7 @@ The King:
 |                     |    2) The King represents the main Towerfall booting system
 |   |\    / \    /|   |    3) The King directs user to Exier
 |   | \  /   \  / |   |    4) The King rewards you for Quests
-|   |  \/     \/  |   |    5) The King interupt certain tasks
+|   |  \/     \/  |   |    5) The King can sometimes interupt certain tasks
 |   |             |   |
 |   |_____________|   |
 |_____________________|
