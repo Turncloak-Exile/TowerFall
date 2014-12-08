@@ -38,17 +38,21 @@ ____ _____  ___                                       __________
      |_|/ 
      |_/
      |/ 
+<<<<<<< HEAD
 \e[0m";
+=======
+\e[0m" 
+>>>>>>> 285fbbbea74b85135555ce0ee94e670107dc5fd0
 echo -e "\e[0;33m           <-----------------------------------------------------------------------------------<<\e[0m"
-echo -e "\e[1;34m 	    									                                                 \e[0m"
-echo -e "\e[1;34m           <-----Written By-----<<          JJJJJJJJ    AA     RRRRR   VV    VV  II  SSSSSSSS    \e[0m"
-echo -e "\e[1;34m	           		           	         JJ      AAAA    RR  RR   V    V   II  SS          \e[0m"
-echo -e "\e[1;34m           <--Turncloak Solider-->	         JJ      A  A    RR  RR   VV  VV   II  SSSSSSSS    \e[0m"
-echo -e "\e[1;34m	          		                        JJ     AAAAAA   RRRR      V  V    II        SS    \e[0m"
-echo -e "\e[1;34m	        >>---Ancient Exile---->         JJ  JJ     AA  AA   RR  R     VVVV    II  SSSSSSSS    \e[0m"
-echo -e "\e[1;34m 	    		                                JJJJ    AAA  AAA  RR   R     VV     II  SSSSSSSS    \e[0m"
-echo -e "\e[1;34m                                                                				              \e[0m"
-echo -e "\e[0;32m           >>----------------------------------------------------------------------------------->\e[0m"
+echo -e "\e[1;34m 	    									                  \e[0m"
+echo -e "\e[1;34m              <-----Written By-----<<       JJJJJJJJ    AA     RRRRR   VV    VV  II  SSSSSSSS    \e[0m"
+echo -e "\e[1;34m	           		          	JJ      AAAA    RR  RR   V    V   II  SS          \e[0m"
+echo -e "\e[1;34m              <--Turncloak Solider-->	        JJ      A  A    RR  RR   VV  VV   II  SSSSSSSS    \e[0m"
+echo -e "\e[1;34m	          		                JJ     AAAAAA   RRRR      V  V    II        SS    \e[0m"
+echo -e "\e[1;34m	       >>---Ancient Exile---->      JJ  JJ     AA  AA   RR  R     VVVV    II  SSSSSSSS    \e[0m"
+echo -e "\e[1;34m 	    		                      JJJJ    AAA  AAA  RR   R     VV     II  SSSSSSSS    \e[0m"
+echo -e "\e[1;34m                                                                				  \e[0m"
+echo -e "\e[0;33m           >>----------------------------------------------------------------------------------->\e[0m"
 
 sleep 2
 
@@ -57,21 +61,23 @@ do
 
 sleep 2
 					
-echo -e "\e[1;33m							                                               \e[0m"
-echo -e "\e[1;33m                                    Press: x to continue   				  \e[0m"
-echo -e "\e[0;33m	                     	     Press: 10 to exit TowerFall				  \e[0m"	
+echo -e "\e[0;33m							                                          \e[0m"
+echo -e "\e[1;33m                                    Press: x to continue   				          \e[0m"
+echo -e "\e[0;33m	                     	  Press: 10 to exit TowerFall				          \e[0m"	
 read ANSWER
 
 if [ "$ANSWER" == "$ANSWER_CONTINUE" ];
 	then
-	echo -e "\e[1;33mKing: Booting Exier"
+	echo -e "\e[1;33mKing: Booting Exier";
 	sleep 2
 	exier/showexier.sh
 
 elif [ "$ANSWER" == "ANSWER_EXIT" ];
 	then
-	echo -e "\e[1:33mKing: Closing TowerFall"
+	echo -e "\e[1:33mKing: Closing TowerFall";
 	sleep 1
+else
+	echo -e "\e[1:33mKing: Please try again";
 fi
 done
 exit

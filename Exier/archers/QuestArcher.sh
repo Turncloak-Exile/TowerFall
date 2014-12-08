@@ -132,7 +132,7 @@ elif [ "$ANSWER" == "$ANSWER_MAINMENU" ];
 	then
     echo -e "\e[0;31mQuest Archer: Returning to Exier\e[0m"
 	sleep 
-	exier/quests/gauntlet2.sh
+	exier/showexier.sh
 else
 	echo -e "\e[0;31mQuest Archer: Theres no Quest for that I'm afraid\e[0m"
 	sleep 1

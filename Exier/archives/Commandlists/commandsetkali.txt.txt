@@ -1,18 +1,21 @@
 All commands (A-Z) for Kali Linux here:
+
 A
 apropos Search Help manual pages (man -k)
 apt-get Search for and install software packages (Debian/Ubuntu)
 aptitude Search for and install software packages (Debian/Ubuntu)
 aspell Spell Checker
 awk Find and Replace text, database sort/validate/index
+
 B
 basename Strip directory and suffix from filenames
 bash GNU Bourne-Again SHell 
 bc Arbitrary precision calculator language 
 bg Send to background
-break Exit from a loop •
+break Exit from a loop â€¢
 builtin Run a shell builtin
 bzip2 Compress or decompress named file(s)
+
 C
 cal Display a calendar
 case Conditionally perform a command
@@ -28,19 +31,20 @@ cksum Print CRC checksum and byte counts
 clear Clear terminal screen
 cmp Compare two files
 comm Compare two sorted files line by line
-command Run a command - ignoring shell functions •
-continue Resume the next iteration of a loop •
+command Run a command - ignoring shell functions â€¢
+continue Resume the next iteration of a loop â€¢
 cp Copy one or more files to another location
 cron Daemon to execute scheduled commands
 crontab Schedule a command to run at a later time
 csplit Split a file into context-determined pieces
 cut Divide a file into several parts
+
 D
 date Display or change the date & time
 dc Desk Calculator
 dd Convert and copy a file, write disk headers, boot records
 ddrescue Data recovery tool
-declare Declare variables and give them attributes •
+declare Declare variables and give them attributes â€¢
 df Display free disk space
 diff Display the differences between two files
 diff3 Show differences among three files
@@ -51,11 +55,12 @@ dirname Convert a full pathname to just a path
 dirs Display list of remembered directories
 dmesg Print kernel & driver messages 
 du Estimate file space usage
+
 E
-echo Display message on screen •
+echo Display message on screen â€¢
 egrep Search file(s) for lines that match an extended expression
 eject Eject removable media
-enable Enable and disable builtin shell commands •
+enable Enable and disable builtin shell commands â€¢
 env Environment variables
 ethtool Ethernet card settings
 eval Evaluate several commands/arguments
@@ -65,6 +70,7 @@ expect Automate arbitrary applications accessed over a terminal
 expand Convert tabs to spaces
 export Set an environment variable
 expr Evaluate expressions
+
 F
 false Do nothing, unsuccessfully
 fdformat Low-level format a floppy disk
@@ -82,6 +88,7 @@ fsck File system consistency check and repair
 ftp File Transfer Protocol
 function Define Function Macros
 fuser Identify/kill the process that is accessing a file
+
 G
 gawk Find and Replace text within file(s)
 getopts Parse positional parameters
@@ -91,12 +98,14 @@ groupdel Delete a group
 groupmod Modify a group
 groups Print group names a user is in
 gzip Compress or decompress named file(s)
+
 H
 hash Remember the full pathname of a name argument
 head Output the first part of file(s)
-help Display help for a built-in command •
+help Display help for a built-in command â€¢
 history Command History
 hostname Print or set system name
+
 I
 iconv Convert the character set of a file
 id Print user and group id's
@@ -106,20 +115,23 @@ ifdown Stop a network interface
 ifup Start a network interface up
 import Capture an X server screen and save the image to file
 install Copy files and set attributes
+
 J
-jobs List active jobs •
+jobs List active jobs â€¢
 join Join lines on a common field
+
 K
 kill Stop a process from running
 killall Kill processes by name
+
 L
 less Display output one screen at a time
-let Perform arithmetic on shell variables •
+let Perform arithmetic on shell variables â€¢
 ln Create a symbolic link to a file
-local Create variables •
+local Create variables â€¢
 locate Find files
 logname Print current login name
-logout Exit a login shell •
+logout Exit a login shell â€¢
 look Display lines beginning with a given string
 lpc Line printer control program
 lpr Off line print
@@ -129,6 +141,7 @@ lprintq List the print queue
 lprm Remove jobs from the print queue
 ls List information about file(s)
 lsof List open files
+
 M
 make Recompile a group of programs
 man Help manual
@@ -142,6 +155,7 @@ mtools Manipulate MS-DOS files
 mtr Network diagnostics (traceroute/ping)
 mv Move or rename files or directories
 mmv Mass Move and rename (files)
+
 N
 netstat Networking information
 nice Set the priority of a command or job
@@ -149,6 +163,7 @@ nl Number lines and write files
 nohup Run a command immune to hangups
 notify-send Send desktop notifications
 nslookup Query Internet name servers interactively
+
 O
 open Open a file in its default application
 op Operator access 
@@ -163,19 +178,21 @@ popd Restore the previous value of the current directory
 pr Prepare files for printing
 printcap Printer capability database
 printenv Print environment variables
-printf Format and print data •
+printf Format and print data â€¢
 ps Process status
 pushd Save and then change the current directory
 pwd Print Working Directory
+
 Q
 quota Display disk usage and limits
 quotacheck Scan a file system for disk usage
 quotactl Set disk quotas
+
 R
 ram ram disk device
 rcp Copy files between two machines
-read Read a line from standard input •
-readarray Read from stdin into an array variable •
+read Read a line from standard input â€¢
+readarray Read from stdin into an array variable â€¢
 readonly Mark variables/functions as read only
 reboot Reboot the system
 rename Rename files
@@ -186,6 +203,7 @@ rev Reverse lines of a file
 rm Remove files
 rmdir Remove folder(s)
 rsync Remote file copy (Synchronize file trees)
+
 S
 screen Multiplex terminal, run remote shells via ssh
 scp Secure copy (remote file copy)
@@ -208,9 +226,10 @@ strace Trace system calls and signals
 su Substitute user identity
 sudo Execute a command as another user
 sum Print a checksum for a file
-suspend Suspend execution of this shell •
+suspend Suspend execution of this shell â€¢
 symlink Make a new name for a file
 sync Synchronize data on disk with memory
+
 T
 tail Output the last part of file
 tar Tape ARchiver
@@ -226,12 +245,13 @@ tr Translate, squeeze, and/or delete characters
 true Do nothing, successfully
 tsort Topological sort
 tty Print filename of terminal on stdin
-type Describe a command •
+type Describe a command
+
 U
-ulimit Limit user resources •
+ulimit Limit user resources
 umask Users file creation mask
 umount Unmount a device
-unalias Remove an alias •
+unalias Remove an alias
 uname Print system information
 unexpand Convert spaces to tabs
 uniq Uniquify files
@@ -246,13 +266,15 @@ usermod Modify user account
 users List users currently logged in
 uuencode Encode a binary file 
 uudecode Decode a file created by uuencode
+
 V
 v Verbosely list directory contents (`ls -l -b')
 vdir Verbosely list directory contents (`ls -l -b')
 vi Text Editor
 vmstat Report virtual memory statistics
+
 W
-wait Wait for a process to complete •
+wait Wait for a process to complete
 watch Execute/display a program periodically
 wc Print byte, word, and line counts
 whereis Search the user's $path, man pages and source files for a program
@@ -262,6 +284,7 @@ who Print all usernames currently logged in
 whoami Print the current user id and name (`id -un')
 wget Retrieve web pages or files via HTTP, HTTPS or FTP
 write Send a message to another user 
+
 X
 xargs Execute utility, passing constructed argument list(s)
 xdg-open Open a file or URL in the user's preferred application.

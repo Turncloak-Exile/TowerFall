@@ -10,8 +10,8 @@ echo "
      \          /
       \_____   /
      	   /  /
-	      /  /   A P P E R
-	     /  /_____
+	  /  /   A P P E R
+	 /  /_____
      	/         /
        /_________/  Written by Ancient Exile";
 
