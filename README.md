@@ -8,8 +8,8 @@
       |____| /  /\__\  \_|_\/\/_|_/  |_ ___|  |____/   |___|     /__/_\  \ | |     | |
       |  | | \  \/  /   \________/   |_|___   |_|\_\   |_|_|     |___|___| |_|___  |_|___
       |__|_|  \____/	 \__/\__/    |_|___|  |_| \_|  ||_/	     |__/ \__| |_____| |_____|	
-      |    |					             | /        
-      |____|					             |/
+      |    |                                           | /        
+      |____|                                           |/
       |_ _/                                      _
       |_|/      Written By                      | |      __   ___   _  _   _  _
       |_/      Ancient Exile                    | |___  |  | | \ | | || | | \/ |
@@ -26,11 +26,11 @@ Consider it a hiarachy:
 ```
 The King:
  _____________________
-|                     |                     
-|                     |
-|   |\    / \    /|   |
-|   | \  /   \  / |   |
-|   |  \/     \/  |   |
+|                     |    1) The King Controls Towerfall                 
+|                     |    2) The King represents the main Towerfall booting system
+|   |\    / \    /|   |    3) The King directs user to Exier
+|   | \  /   \  / |   |    4) The King rewards you for Quests
+|   |  \/     \/  |   |    5) The King Knows what you are doing at all times
 |   |             |   |
 |   |_____________|   |
 |_____________________|
