@@ -13,13 +13,17 @@ ANSWER_JARVISA="10"
 ANSWER_JARVISP="11"
 ANSWER_JARVISN="12"
 ANSWER_JARVIST="13"
-ANSWER_KALI="14"
-ANSWER_QUESTS="18"
-ANSWER_ARCHIVES="19"
-ANSWER_LAUNCH="20"
+ANSWER_QUESTARCHER="14"
+ANSWER_VSARCHER="15"
+ANSWER_ARCHIVESARCHER="16"
+ANSWER_OPTIONSARCHER="17"
+ANSWER_KALICOMMANDSET="18"
+ANSWER_ARCHIVE="19"
+ANSWER_THEKING="20"
 
 sleep 0.5
 echo -e "\e[0;32m 
+ 
        CCCCCC  RRRRR   EEEEE  DDDD    II  TTTTTT SSSSSSS
       CC    CC RR  RR  EE     DD  D   II  TTTTTT SS    
       CC       RR  RR  EEEEE  DD   D  II    TT   SSSSSSS
@@ -45,7 +49,7 @@ do
 
 echo -e "\e[1;37mJarvisI: Loading Available Options"
 sleep 3
-echo -e "\e[1;37mJarvisI: Manual Options:
+echo -e "\e[1;37mJarvisI: Available Manuals:
 
 1)Jarvis Manual
 2)Jarvis Cloak Manual
@@ -60,13 +64,13 @@ echo -e "\e[1;37mJarvisI: Manual Options:
 11)Jarvis Programmer Manual
 12)Jarvis Network Manual
 13)Jarvis Thesaurus Manual
-14)
-15)
-16)
-17)
-18)Quests
+14)Quest Archer
+15)Vs Archer
+16)Archives Archer
+17)Options Archer
+18)Command Set Kali
 19)Archives
-20)Launch Jarvis"
+20)The King"
 
 read ANSWER
 
@@ -76,79 +80,81 @@ if [ "$ANSWER" == "$ANSWER_JARVIS" ];
 	sleep 1
 	options/manuals/Jarvismanual.sh
 	sleep 2
-
-elif [ "$ANSWER" == $ANSWER_ARCHIVES" ];
+elif [ "$ANSWER" == "$ANSWER_QUESTARCHER" ];
 	then
 	sleep 1		
-	options/scripts/showarchives.sh
+	exier/archers/QuestArchermanual.sh
 
-
-elif [ "$ANSWER" == $ANSWER_QUESTS" ];
+elif [ "$ANSWER" == "$ANSWER_ARCHIVES" ];
 	then
 	sleep 1		
-	options/scripts/showquests.sh
+	exier/options/scripts/showarchives.sh
 
-elif [ "$ANSWER" == $ANSWER_JARVISC" ];
+
+elif [ "$ANSWER" == "$ANSWER_QUESTS" ];
 	then
 	sleep 1		
-	options/manuals/JarvisCmanual.sh
+	exier/options/scripts/showquests.sh
+
+elif [ "$ANSWER" == "$ANSWER_JARVISC" ];
+	then
+	sleep 1		
+	exier/options/manuals/JarvisCmanual.sh
 
 elif [ "$ANSWER" == "$ANSWER_JARVISS" ];
 	then
 	sleep 1		
-	options/manuals/JarvisSmanual.sh
+	exier/options/manuals/JarvisSmanual.sh
 
 elif [ "$ANSWER" == "$ANSWER_JARVISH" ];
 	then
 	sleep 1		
-	options/manuals/JarvisHmanual.sh
+	exier/options/manuals/JarvisHmanual.sh
 
 elif [ "$ANSWER" == "$ANSWER_JARVISZ" ];
 	then
 	sleep 1		
-	options/manuals/JarvisZmanual.sh
+	exier/options/manuals/JarvisZmanual.sh
 
 elif [ "$ANSWER" == "$ANSWER_JARVISG" ];
 	then
 	sleep 1		
-	options/manuals/JarvisGmanual.sh
+	exier/options/manuals/JarvisGmanual.sh
 
 elif [ "$ANSWER" == "$ANSWER_JARVISM" ];
 	then
 	sleep 1		
-	options/manuals/JarvisMmanual.sh
+	exier/options/manuals/JarvisMmanual.sh
 
 elif [ "$ANSWER" == "$ANSWER_JARVISI" ];
 	then
 	sleep 1		
-	options/manuals/JarvisImanual.sh
+	exier/options/manuals/JarvisImanual.sh
 
 elif [ "$ANSWER" == "$ANSWER_JARVISE" ];
 	then
 	sleep 1		
-	options/manuals/JarvisEmanual.sh
+	exier/options/manuals/JarvisEmanual.sh
 
 elif [ "$ANSWER" == "$ANSWER_JARVISA" ];
 	then
 	sleep 1		
-	options/manuals/JarvisAmanual.sh
+	exier/options/manuals/JarvisAmanual.sh
 
-elif [ "$ANSWER" == $ANSWER_JARVISP" ];
+elif [ "$ANSWER" == "$ANSWER_JARVISP" ];
 	then
 	sleep 1		
 	options/manuals/JarvisPmanual.sh
 
-elif [ "$ANSWER" == $ANSWER_KALI" ];
+elif [ "$ANSWER" == "$ANSWER_KALI" ];
 	then
 	sleep 1
-	"\e[1;37mJarvisI: Locating Archives:"
+	echo -e "\e[1;37mJarvisI: Locating Archives:";
 	sleep 2
-	"\e[1;37mJarvisI: Archives Loaded"
+	echo -e "\e[1;37mJarvisI: Archives Loaded";
 	sleep 0.5	
-	"\e[1;37mJarvisI: Available Archives:
-	options/scripts/showarchives.sh
-
-	leafpad archives/commandlist/KaliCommandSet.txt
+	echo -e "\e[1;37mJarvisI: Available Archives:";
+	exier/archers/QuestArcher.sh
 
 elif [ "$ANSWER" == "$ANSWER_LAUNCH" ];
 	then
