@@ -75,7 +75,7 @@ elif [ "$ANSWER" == "ANSWER_EXIT" ];
 	echo -e "\e[1:33mKing: Closing TowerFall";
 	sleep 1
 else
-	echo -e "\e[1:33mKing: Reloading Towerfall Menu";
+	echo -e "\e[1:33mKing: Please try again";
 fi
 done
 exit
