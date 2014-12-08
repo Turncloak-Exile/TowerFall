@@ -25,7 +25,7 @@ echo Shortly after Exier wrote JarvisC, JarvisG, JarvisI etc. Another ambitious 
 sleep 1
 echo Towerfall operating system was born.
 sleep 1
-echo With all these Jarvis's running around willy nilly someone had to take control.
+echo With all these Jarviss running around willy nilly someone had to take control.
 sleep 1
 echo Then the Archers where born.
 sleep 1
@@ -33,13 +33,13 @@ echo The Archers consist of a family of four and each Archer is a Gate Keeper fo
 sleep 1
 echo These files are split into four catagories; Quests, Archives, Vs and Options. 1 Archer controlls 1 catagory.
 sleep 1
-echo Whilst writing the code for the Archers something had to be done about the mess they'd produced.
+echo Whilst writing the code for the Archers something had to be done about the mess they had produced.
 sleep 1
 echo Then Exier was virtualised into its own manager.
 sleep 1 
 echo Exier is the name given to the producers of Towerfall Operating System.
 sleep 1
-echo So by now you would've thought we would've had enough of all these menus but last but not least,
+echo So by now you would have thought we would have had enough of all these menus but last but not least,
 sleep 1
 echo The King was born.
 sleep 1
