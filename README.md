@@ -7,7 +7,7 @@
       |__|_|  /_   \  |  |\    /|  | |_|___   | |>  |  |___|      /  _ _\  |_|     |_|
       |____| /  /\__\  \_|_\/\/_|_/  |_ ___|  |____/   |___|     /__/_\  \ | |     | |
       |  | | \  \/  /   \________/   |_|___   |_|\_\   |_|_|     |___|___| |_|___  |_|___
-      |__|_|  \____/	    \__/\__/    |_|___|  |_| \_|  ||_/	     |__/ \__| |_____| |_____|	
+      |__|_|  \____/	  \__/\__/    |_|___|  |_| \_|  ||_/	     |__/ \__| |_____| |_____|	
       |    |                                           | /        
       |____|                                           |/
       |_ _/                                         _
@@ -31,11 +31,11 @@ Consider Towerfall as a hiarachy of instructions:
 ```
 The King:
  _____________________
-|                     |    1) The King Controls Towerfall                 
-|                     |    2) The King represents the main Towerfall booting system
-|   |\    / \    /|   |    3) The King directs user to Exier
-|   | \  /   \  / |   |    4) The King rewards you for Quests
-|   |  \/     \/  |   |    5) The King can sometimes interupt certain tasks
+|                     |    1) The King Controls the botting of Towerfall and is shown in Yellow.
+|                     |    2) The King represents the boss man.
+|   |\    / \    /|   |    3) The King directs user to Exier to access next layour of files.
+|   | \  /   \  / |   |    4) The King rewards you for Quests that are completed.
+|   |  \/     \/  |   |    5) The King can sometimes interupt certain tasks if he thinks he should.
 |   |             |   |
 |   |_____________|   |
 |_____________________|
@@ -44,7 +44,7 @@ The King:
 ```
 Exier: Ancient Exile and Turncloak Solider:
  _____________________
-|                     |    1) Exier is the name produced from Ancient Exile and Turncloak Solider                 
+|                     |    1) Exier is the name produced from Ancient Exile and Turncloak Solider and is shown in light blue.
 |    _____________    |    2) Exier controls all the programs and scripts inside Towerfall.
 |   |   __________|   |    3) Exier acts as the controller. He is the main directer within Towerfall.
 |   |   |______       |    4) Exier represents the creators of TowerFall and is the result of *Exile and *Solider. 
