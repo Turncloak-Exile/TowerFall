@@ -30,7 +30,7 @@ The King:
 |                     |    2) The King represents the main Towerfall booting system
 |   |\    / \    /|   |    3) The King directs user to Exier
 |   | \  /   \  / |   |    4) The King rewards you for Quests
-|   |  \/     \/  |   |    5) The King Knows what you are doing at all times
+|   |  \/     \/  |   |    5) The King interupt certain tasks
 |   |             |   |
 |   |_____________|   |
 |_____________________|
