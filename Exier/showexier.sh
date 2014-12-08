@@ -5,8 +5,8 @@ ANSWER_ARCHIVES="2"
 ANSWER_OPTIONS="3"
 ANSWER_QUESTS="4"
 ANSWER_VS="5"
-ANSWER_MAINMENU="10"
-#popper scooper
+ANSWER_BACKTOKING="10"
+
 until [ "$ANSWER" == "$ANSWER_MAINMENU" ];
 do
 
@@ -17,7 +17,7 @@ echo -e "\e[1;32mExier: Available Options:
 3)Options
 4)Quests
 5)Vs
-10)Main Menu"
+10)Back to King"
 
 read ANSWER
 
@@ -52,11 +52,11 @@ elif [ "$ANSWER" == "ANSWER_VSARCHER" ];
 	sleep 1
 	exier/archers/VsArcher.sh
 
-elif [ "$ANSWER" == "ANSWER_MAINMENU" ];
+elif [ "$ANSWER" == "ANSWER_BACKTOKING" ];
 	then
-	echo -e "\e[1;32mExier: Returning to Main Menu"
+	echo -e "\e[1;32mExier: Returning to King"
 else
-	echo -e "\e[1;32mExier: Unrecogised Response. Reloading Menu"	
+	echo -e "\e[1;32mExier: Unrecogised Response. Reloading Options"	
 	sleep 1
 fi
 done
