@@ -24,7 +24,7 @@ if [ "$ANSWER" == "ANSWER_OPTARCHER" ];
 	then
 	echo -e "\e[1;32mExier: Loading Options Archer"
 	sleep 1
-	exier/archers/OptArcher.sh
+	exier/options/OptArcher.sh
 
 elif [ "$ANSWER" == "ANSWER_ARCARCHER" ];
 	then
