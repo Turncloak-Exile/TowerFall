@@ -88,9 +88,9 @@ Think of it this way:
 Loading Available Options:
 
 1)You access King through booting Towerfall
-2)You access Exier Through King
+2)You access Exier through King
 3)You access Archers through Exier
-4)You access Jarvis throu Archers
+4)You access Jarvis through Archers
 
 If you find this hard to get your head around. Don't worry, we've made TowerFall as simple and quick as possible, by using multiple choice questions to get to where you need as fast as possible.
 
