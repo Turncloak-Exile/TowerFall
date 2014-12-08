@@ -32,13 +32,13 @@ elif [ "$ANSWER" == "$ANSWER_ARCHIVES" ];
 	then
 	echo -e "\e[1;32mExier: Loading Archives";
 	sleep 1
-	exier/archives/showarchives.sh
+	exier/archers/ArcArcher.sh.sh
 
 elif [ "$ANSWER" == "ANSWER_OPTIONS" ];
 	then
 	echo -e "\e[1;32mExier: Loading Options";
 	sleep 1
-	exier/options/showoptions.sh
+	exier/archers/OptArcher.sh
 
 elif [ "$ANSWER" == "ANSWER_QUEST" ];
 	then
