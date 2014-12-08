@@ -39,11 +39,11 @@ The King:
 ```
 Exier: Ancient Exile and Turncloak Solider:
  _____________________
-|                     |                     
-|    _____________    |
-|   |   __________|   |
-|   |   |______       |
-|   |    ______|      |
+|                     |    1) Exier is the name produced from Ancient Exile and Turncloak Solider                 
+|    _____________    |    2) Exier controls all the programs and scripts inside Towerfall.
+|   |   __________|   |    3) Exier acts as the controller. He is the main directer within Towerfall.
+|   |   |______       |    4) Exier represents the creators of TowerFall and is the result of *Exile and *Solider. 
+|   |    ______|      |    5) Exier allows access to more files within Towerfall.
 |   |   |_________    |
 |   |_____________|   |
 |_____________________|
@@ -52,25 +52,24 @@ Exier: Ancient Exile and Turncloak Solider:
 ```
 Archers
  _____________________
-|                     |                     
-|        ___          |
-|       / __ \        |
-|      / /__\ \       |
-|     /  ____  \      |
+|                     |    1) Archers controll the access of the files in Exier.                 
+|        ___          |    2) There are 4 Archers. Each represent a different area of files.
+|       / __ \        |    3) Archers direct users to the more diverse areas of the Towerfall system.
+|      / /__\ \       |    4) Archers are not nice.
+|     /  ____  \      |    5) Archers tend to like power.
 |    /  /    \  \     |
 |   /__/      \__\    |
 |_____________________|
 
 ```
-
 ```
 Jarvis
  _____________________
-|                     |                     
-|    ______________   |
-|   |_____    _____|  |
-|         |  |        |
-|    __   |  |        |
+|                     |    1) Jarvis is our GOD                
+|    ______________   |    2) Jarvis has a big family
+|   |_____    _____|  |    3) Each intial at the end of e.g. JarvisG represents a area of expertise.
+|         |  |        |    4) There is currently X number of Jarvis's in Towerfall. We've forgoton where they are!
+|    __   |  |        |    5) Jarvis is the subtle super computer of Towerfall. Think of it as a Arc Reactor.
 |   |  |  |  |        |
 |   |  \_/   |        |
 |    \______/         |
@@ -86,15 +85,17 @@ Those questions would load sequence triggered, availble Options like so:
 
 Think of it this way:
 
-Available Optionss:
+Loading Available Options:
 
-1)You access Exier Through King
-2)You access Archers through Exier
-3)You access Jarvis throu Archers
-4)Kinda like a relay..
+1)You access King through booting Towerfall
+2)You access Exier Through King
+3)You access Archers through Exier
+4)You access Jarvis throu Archers
 
-Why, you ask?
+If you find this hard to get your head around. Don't worry, we've made TowerFall as simple and quick as possible, by using multiple choice questions to get to where you need as fast as possible.
 
-We feel It should be a challenge to access some of the tools included in this operating system.
+Why do it like this? you ask?
 
-"We feel the people who don't see how far the rabbit hole goes, shouldn't play with some of the tools included in this operating system." - Turncloak-Exile.com
+Here at Exier, we feel It should be a challenge to use some of the tools included in this operating system. As with great power comes great responsibility.
+
+"We feel the people who don't want to jump down the rabbit hole, shouldn't use this operating system." - Ancient Exile Turncloak-Exile.com
