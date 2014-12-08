@@ -20,7 +20,7 @@
 
 TowerFall is a text based, multiple choice operating system. Your choices are numbered and shown with brackets.
 
- Choice1) Designed to do be simple, efficient, qwerky and powerfull.
+1) Designed to do be simple, efficient, qwerky and powerfull.
 
 Example of layout:
 
