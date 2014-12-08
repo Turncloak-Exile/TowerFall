@@ -20,7 +20,7 @@
 
 TowerFall is a text based, multiple choice operating system. Your choices are numbered and shown with brackets.
 
-1) Designed to do be simple, efficient, qwerky and powerfull.
+Designed to do be simple, efficient, qwerky and powerfull.
 
 Example of layout:
 
@@ -32,7 +32,7 @@ Consider Towerfall as a hiarachy of instructions:
 ```
 The King:
  _____________________
-|                     |    1) The King Controls the botting of Towerfall and is shown in Yellow.
+|                     |    1) The King Controls the booting of Towerfall and is shown in Yellow.
 |                     |    2) The King represents the boss man.
 |   |\    / \    /|   |    3) The King directs user to Exier to access next layour of files.
 |   | \  /   \  / |   |    4) The King rewards you for Quests that are completed.
@@ -71,10 +71,10 @@ Archers
 ```
 Jarvis
  _____________________
-|                     |    1) Jarvis is our GOD                
-|    ______________   |    2) Jarvis has a big family
-|   |_____    _____|  |    3) Each intial at the end of e.g. JarvisG represents a area of expertise.
-|         |  |        |    4) There is currently X number of Jarvis's in Towerfall. We've forgoton where they are!
+|                     |    1) Jarvis is our only hope                
+|    ______________   |    2) Jarvis performs various tasks that you have chosen.
+|   |_____    _____|  |    3) If you see an intial at the end of Jarvis. It corresponds with its speciality.
+|         |  |        |    4) There is currently X number of Jarvis's in Towerfall. We've forgoton where they all are!
 |    __   |  |        |    5) Jarvis is the subtle super computer of Towerfall. Think of it as a Arc Reactor.
 |   |  |  |  |        |
 |   |  \_/   |        |
