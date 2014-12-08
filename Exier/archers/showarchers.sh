@@ -20,12 +20,7 @@ echo -e "\e[1;32mExier: Archers Available:
 
 read ANSWER
 
-if [ "$ANSWER" == "$ANSWER_TOWERFALLMENU" ];
-	then
-	echo -e "\e[1;32mExier: Towerfall rebooting"
-	sleep 1
-
-elif [ "$ANSWER" == "ANSWER_OPTARCHER" ];
+if [ "$ANSWER" == "ANSWER_OPTARCHER" ];
 	then
 	echo -e "\e[1;32mExier: Loading Options Archer"
 	sleep 1
@@ -49,5 +44,10 @@ elif [ "$ANSWER" == "ANSWER_QUESTARCHER" ];
 	sleep 1
 	exier/archers/QuestArcher.sh
 
+elif
+ 	[ "$ANSWER" == "$ANSWER_TOWERFALLMENU" ];
+	then
+	echo -e "\e[1;32mExier: Towerfall rebooting"
+	sleep 1
 fi
 done

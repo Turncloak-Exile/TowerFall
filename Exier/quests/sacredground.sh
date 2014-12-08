@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo Sacred Ground is currently under maintenance
+echo -e "\e[0;31mQuest Archer: Sacred Ground is still in development"
 sleep 2
-echo Returning to Main menu
+echo -e "\e[0;31mQuest Archer is Returning to Main menu"
 sleep 3

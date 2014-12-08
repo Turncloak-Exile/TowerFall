@@ -16,25 +16,75 @@ ANSWER_GAUNTLET="13"
 ANSWER_GAUNTLET2="14"
 ANSWER_MAINMENU="15
 
+until [ "$ANSWER" == "$ANSWER_MAINMENU" ];
+do
+
 sleep 1
 echo -e "\e[0;31mQuest Archer: Loading Quests";
 sleep 2
-echo -e "\e[0;31mQuest Archer: Quests Available:
+echo -e "\e[0;31mQuest Archer: Quests Available:"
 
-1)Sacred Ground
-2)Twilight Spire
-3)Backfire
-4)Flight
-5)Mirage
-6)Thornwood
-7)Frostfang Keep
-8)Kings Court
-9)Sunken City
-10)Moonstone
-11)Towerforge
-12)Ascension
-13)Gauntlet
-14)Gauntlet II";
+echo -e "\e[0;37m1)Sacred Ground"
+echo -e "\e[0;37m2)Twilight Spire"
+echo -e "\e[0;37m3)Backfire"
+echo -e "\e[0;37m4)Flight"
+echo -e "\e[0;37m5)Mirage"
+echo -e "\e[0;37m7)Frostfang Keep"
+echo -e "\e[1;33m8)Kings Court"
+echo -e "\e[1;33m9)Sunken City"
+echo -e "\e[1;33m10)Moonstone"
+echo -e "\e[1;33m11)Towerforge"
+echo -e "\e[1;34m12)Ascension"
+echo -e "\e[1;34m13)Gauntlet"
+echo -e "\e[1;34m14)Gauntlet II"
 
-echo -e "\e[0;31mQuest Archer: Which Quest do you want to launch?";
+echo -e "\e[0;31mQuest Archer: Available Quests:"
+sleep 1
+
+read $ANSWER
+
+if [ "$ANSWER" == "$ANSWER_SACREDGROUND" ];
+	then
+	echo -e "\e[0;31mQuest Archer: Loading Sacred Ground Quest"
+	sleep 
+	exier/quests/sacredground.sh
+
+elif [ "$ANSWER" == "$ANSWER_TWIGHLIGHTSPIRE" ];
+	then
+	echo -e "\e[0;31mQuest Archer: Loading Twighlight Spire Quest"
+	sleep 
+	exier/quests/twighlightspire.sh
+
+elif [ "$ANSWER" == "$ANSWER_BACKFIRE" ];
+	then
+	echo -e "\e[0;31mQuest Archer: Loading Backfire Quest"
+	sleep 
+	exier/quests/backfire.sh
+
+elif [ "$ANSWER" == "$ANSWER_FLIGHT" ];
+	then
+	echo -e "\e[0;31mQuest Archer: Loading Flight Quest"
+	sleep 
+	exier/quests/flight.sh
+
+elif [ "$ANSWER" == "$ANSWER_MIRAGE" ];
+	then
+	echo -e "\e[0;31mQuest Archer: Mirage Quest"
+	sleep 
+	exier/quests/mirage.sh
+
+elif [ "$ANSWER" == "$ANSWER_THORNWOOD" ];
+	then
+	echo -e "\e[0;31mQuest Archer: Loading Thornwood Quest"
+	sleep 
+	exier/quests/thornwood.sh
+
+elif [ "$ANSWER" == "$ANSWER_FROSTFANGKEEP" ];
+	then
+	echo -e "\e[0;31mQuest Archer: Loading Frostfang Keep Quest"
+	sleep 
+	exier/quests/frostfangkeep.sh
+fi
+done
+
 
