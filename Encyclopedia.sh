@@ -17,10 +17,9 @@ ANSWER_QUESTARCHER="14"
 ANSWER_VSARCHER="15"
 ANSWER_ARCHIVESARCHER="16"
 ANSWER_OPTIONSARCHER="17"
-ANSWER_KALICOMMANDSET="18"
-ANSWER_ARCHIVES="19"
-ANSWER_THEKING="20"
-ANSWER_EXITTOJARVIS="21"
+ANSWER_ARCHIVES="18"
+ANSWER_THEKING="19"
+ANSWER_EXITTOJARVIS="20"
 
 sleep 0.5
 echo -e "\e[0;32m 
@@ -30,7 +29,7 @@ echo -e "\e[0;32m
       CC       RR  RR  EEEEE  DD   D  II    TT   SSSSSSS
       CC       RRRR    EE     DD   D  II    TT        SS
       CC    CC RR  R   EE     DD  D   II    TT   SSSSSSS 
-       CCCCCC  RR   R  EEEEE  DDDD    II    TT   SSSSSSS                    \e[0m";     
+       CCCCCC  RR   R  EEEEE  DDDD    II    TT   SSSSSSS                    \e[0m";   
 
 echo -e "\e[0;33m
 
@@ -48,7 +47,7 @@ echo -e "\e[1;34m         JJJJ    AAA  AAA  RR   R     VV     II  SSSSSSSS	\e[0m
 until [ "$ANSWER" == "$ANSWER_LAUNCH" ];
 do
 
-echo -e "\e[1;37mJarvisI: Loading Encyclopedia"
+echo -e "\e[1;37mJarvisI: Loading Encyclopedia";
 sleep 3
 echo -e "\e[1;37mJarvisI: Current Manuals:
 
@@ -61,7 +60,7 @@ echo -e "\e[1;37mJarvisI: Current Manuals:
 7)Jarvis Maths Manual
 8)Jarvis Information Manual
 9)Jarvis Education Manual
-10)Jarvis Attatck Manual
+10)Jarvis Attack Manual
 11)Jarvis Programmer Manual
 12)Jarvis Network Manual
 13)Jarvis Thesaurus Manual
@@ -69,10 +68,9 @@ echo -e "\e[1;37mJarvisI: Current Manuals:
 15)Vs Archer
 16)Archives Archer
 17)Options Archer
-18)Command Set Kali
-19)Archives
-20)The King
-21)Exit to Jarvis"
+18)Archives
+19)The King
+20)Exit to Jarvis";
 
 read ANSWER
 
