@@ -1,5 +1,5 @@
 ```bash
-____ _____  ___    				              __________
+ ____ _____  ___    				              __________
  |___|_____||___|                                     _|__|_  |__|
  |__ _|__|___|__|                                    |_ _|__|_|__|
  |__|__|_|______|      ___      ___   _____   _____    |___|___     ___    ___     ___
@@ -23,7 +23,7 @@ TowerFall is a text based, multiple choice operating system.
  Choice1) Designed to do be simple, efficient, qwerky and powerfull.
 
 Consider it a hiarachy:
-
+```
 The King:
  _____________________
 |                     |                     
@@ -35,7 +35,8 @@ The King:
 |   |_____________|   |
 |_____________________|
 
-
+```
+```
 Exier: Ancient Exile and Turncloak Solider:
  _____________________
 |                     |                     
@@ -47,7 +48,8 @@ Exier: Ancient Exile and Turncloak Solider:
 |   |_____________|   |
 |_____________________|
 
-
+```
+```
 Archers
  _____________________
 |                     |                     
@@ -59,8 +61,11 @@ Archers
 |   /__/      \__\    |
 |_____________________|
 
+```
+
+```
 Jarvis
-  ____________________
+ _____________________
 |                     |                     
 |    ______________   |
 |   |_____    _____|  |
