@@ -18,8 +18,9 @@ ANSWER_VSARCHER="15"
 ANSWER_ARCHIVESARCHER="16"
 ANSWER_OPTIONSARCHER="17"
 ANSWER_KALICOMMANDSET="18"
-ANSWER_ARCHIVE="19"
+ANSWER_ARCHIVES="19"
 ANSWER_THEKING="20"
+ANSWER_EXITTOJARVIS="21"
 
 sleep 0.5
 echo -e "\e[0;32m 
@@ -47,9 +48,9 @@ echo -e "\e[1;34m         JJJJ    AAA  AAA  RR   R     VV     II  SSSSSSSS	\e[0m
 until [ "$ANSWER" == "$ANSWER_LAUNCH" ];
 do
 
-echo -e "\e[1;37mJarvisI: Loading Available Options"
+echo -e "\e[1;37mJarvisI: Loading Encyclopedia"
 sleep 3
-echo -e "\e[1;37mJarvisI: Available Manuals:
+echo -e "\e[1;37mJarvisI: Current Manuals:
 
 1)Jarvis Manual
 2)Jarvis Cloak Manual
@@ -70,7 +71,8 @@ echo -e "\e[1;37mJarvisI: Available Manuals:
 17)Options Archer
 18)Command Set Kali
 19)Archives
-20)The King"
+20)The King
+21)Exit to Jarvis"
 
 read ANSWER
 
@@ -80,10 +82,6 @@ if [ "$ANSWER" == "$ANSWER_JARVIS" ];
 	sleep 1
 	options/manuals/Jarvismanual.sh
 	sleep 2
-elif [ "$ANSWER" == "$ANSWER_QUESTARCHER" ];
-	then
-	sleep 1		
-	exier/archers/QuestArchermanual.sh
 
 elif [ "$ANSWER" == "$ANSWER_ARCHIVES" ];
 	then
@@ -146,25 +144,49 @@ elif [ "$ANSWER" == "$ANSWER_JARVISP" ];
 	sleep 1		
 	options/manuals/JarvisPmanual.sh
 
-elif [ "$ANSWER" == "$ANSWER_KALI" ];
+elif [ "$ANSWER" == "$ANSWER_JARVIST" ];
 	then
-	sleep 1
-	echo -e "\e[1;37mJarvisI: Locating Archives:";
-	sleep 2
-	echo -e "\e[1;37mJarvisI: Archives Loaded";
-	sleep 0.5	
-	echo -e "\e[1;37mJarvisI: Available Archives:";
-	exier/archers/QuestArcher.sh
+	sleep 1		
+	options/manuals/JarvisTmanual.sh
+elif [ "$ANSWER" == "$ANSWER_QUESTARCHER" ];
+	then
+	sleep 1		
+	exier/archers/QuestArchermanual.sh
 
-elif [ "$ANSWER" == "$ANSWER_LAUNCH" ];
+elif [ "$ANSWER" == "$ANSWER_VSARCHER" ];
+	then
+	sleep 1		
+	exier/archers/VsArchermanual.sh
+
+elif [ "$ANSWER" == "$ANSWER_ANSWER_ARCHIVESARCHER" ];
+	then
+	sleep 1		
+	exier/archers/ArchivesArchermanual.sh
+
+elif [ "$ANSWER" == "$ANSWER_ANSWER_OPTIONSARCHER" ];
+	sleep 1		
+	exier/archers/OptionsArchermanual.sh
+	
+
+elif [ "$ANSWER" == "$ANSWER_THEKING" ];
+	then
+	sleep 1		
+	exier/king/TheKingsmanual.sh
+
+elif [ "$ANSWER" == "$ANSWER_KALICOMMANDSET" ];
 	then
 	sleep 1
+	echo -e "\e[1;37mJarvisI: Now loading the Kali commands set in Leafpad";
 	sleep 1
-	echo -e "\e[1;37mJarvisI: Closing Manual Options. Proceeding to Boot Jarvis"
-	sleep 2
+	leafpad exier/archives/usefull/kalicommandset.txt
+
+elif [ "$ANSWER" == "$ANSWER_EXITTOJARVIS" ];
+	then
+	sleep 1		
+	echo -e "\e[1;37mJarvisI: Returning to previous Menu";
 else
 	sleep 1
-	echo -e "\e[1;37mJarvisI: Unrecognisable Repsonse. Returning to Main Menu"
+	echo -e "\e[1;37mJarvisI: Unrecognisable Repsonse. Reloading Options";
 	sleep 2
 
 fi
