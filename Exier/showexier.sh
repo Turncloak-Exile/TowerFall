@@ -44,7 +44,7 @@ elif [ "$ANSWER" == "ANSWER_QUEST" ];
 	then
 	echo -e "\e[1;32mExier: Loading Quests"
 	sleep 1
-	exier/quests/questshow.sh
+	exier/archers/QuestArcher.sh
 
 elif [ "$ANSWER" == "ANSWER_VSARCHER" ];
 	then
