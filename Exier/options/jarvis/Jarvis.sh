@@ -63,20 +63,38 @@ echo -e "\e[0m"
 
 echo -e "\e[1;34mJarvis: Options available: 
 
-1) General
-2) Tutorials
-3) Angels
-4) Extensions
-5) 
-6) FAQ Help
-7) My Device
-8) Shorcuts
-9) Tools
-10) Utilities
-11) Exit
-69) Reboot
-8008) Information
-101) Credits \e[0m"
+    _______________________________________ 
+   |                                       |
+   |                                       |
+   |            10) Utilities              |
+   |                                       |
+   |              1)General                |
+   |                                       |
+   |             8)Shortcuts               |
+   |                                       |
+   |             2)Tutorials               |
+   |                                       |
+   |           8008) Information           |
+   |                                       |
+   |           4) Extensions               |
+   |                                       |
+   |              3)Angels                 |
+   |                                       |
+   |             7)My Device               |
+   |                                       |
+   |              6)FAQ Help               |
+   |                                       |
+   |               9)Tools                 |
+   |                                       |
+   |              69)Reboot                |
+   |                                       |
+   |             101) Credits              |
+   |                                       |
+   |               11) Exit                |
+   |                                       |
+   |                5)N/A                  |
+   |                                       |
+   |_______________________________________|";
 
 read ANSWER
 

@@ -14,9 +14,28 @@ sleep 2
 
 until [ "$ANSWER" == "$ANSWER_EXIT" ]; do
 
-echo -e "\e[1;31mJarvisC: Loading scripts to Cloak machine\e[0m"
-sleep 2
-echo -e "\e[1;31mJarvisC: macchanger, ipspoof, noping, changehostname, ipcheck all or exit.\e[0m"
+echo -e "\e[1;31mJarvisC: Loading scripts to Cloak machine
+
+    _______________________________________ 
+   |                                       |
+   |                                       |
+   |            7)Macchanger               |
+   |                                       |
+   |              3)Ipspoof                |
+   |                                       |
+   |              4)Noping                 |
+   |                                       |
+   |          2)Change Hostname            |
+   |                                       |
+   |             6)Ipchecker               |
+   |                                       |
+   |           		8)All                  |
+   |                                       |
+   |               1)Exit                  |
+   |                                       |
+   |_______________________________________|";
+
+
 echo NOTICE: Ip spoof is under going maintenance.
 
 read ANSWER

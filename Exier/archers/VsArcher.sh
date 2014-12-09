@@ -12,11 +12,20 @@ do
 sleep 1
 echo -e "\e[1;34mVs Archer: Available Options:
 
-1) Man in the Middle Attatcks
-2) How to Create a Virtual Machine
-3) Denial of service scripts
-4) You Vs Target
-5) Back to Exier Menu";
+    _______________________________________ 
+   |                                       |
+   |                                       |
+   |   2)How to create a virtual machine   |
+   |                                       |
+   |      1)Man in the middle attacks      |
+   |                                       |
+   |      3)Denial of Service scripts      |
+   |                                       |
+   |           4)You vs Target             |
+   |                                       |
+   |        5) Back to exier Menu          |
+   |                                       |
+   |_______________________________________|";
 
 read ANSWER
 

@@ -31,10 +31,20 @@ echo -e "\e[1;32m        JJJJ    AAA  AAA  RR   R     VV     II  SSSSSSSS"
 sleep 1
 echo -e "\e[0;32mJarvisS: Manual Options:
 
-1)Jarvis Manual
-2)Jarvis Extensions
-3)Launch Jarvis
-4)Exit Jarvis "
+    _______________________________________ 
+   |                                       |
+   |                                       |
+   |          2)Jarvis Extensions          |
+   |                                       |
+   |           1)Jarvis Manual             |
+   |                                       |
+   |            3)Exit Jarvis              |
+   |                                       |
+   |           4)Launch Jarvis             |
+   |                                       |
+   |        5) Back to exier Menu          |
+   |                                       |
+   |_______________________________________|";
 
 read ANSWER 
 

@@ -35,12 +35,23 @@ until   [ "$ANSWER" == "$ANSWER_MAINMENU" ];
 do
 
 echo -e "\e[1;37mJarvisG: Available Options:
-1) Google+
-2) Google Mail
-3) Youtube
-4) Google Music
-5) Weather
-10) Main Menu"
+
+    _______________________________________ 
+   |                                       |
+   |                                       |
+   |            4)Google Music             |
+   |                                       |
+   |             2)Google Mail             |
+   |                                       |
+   |             10)Main Menu              |
+   |                                       |
+   |              1)Google+                |
+   |                                       |
+   |              3)Youtube                |
+   |                                       |
+   |           	  5)Weather                |
+   |                                       |
+   |_______________________________________|";
 
 read ANSWER
 
