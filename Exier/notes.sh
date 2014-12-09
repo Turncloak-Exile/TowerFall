@@ -16,7 +16,7 @@ if [ "$ANSWER" == "$ANSWER_YES" ];
   then
   echo -e "\e[1;33mKing: Loading Notes"
   sleep 1
-  leafpad exier/settings/note.txt
+  leafpad exier/settings/notes.txt
   echo -e "\e1;33mKing: To add a note, write your note, go to File/save, close Leafpad. Then you will have saved your changes."
 
 elif [ "$ANSWER" == "$ANSWER_NO" ];
