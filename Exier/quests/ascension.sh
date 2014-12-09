@@ -9,7 +9,7 @@ echo Loading
 echo -e "\e[0;32mPlease select difficulty;
 
 
-    1)NORMAL         2)HARCORE
+    1)NORMAL        2)HARCORE
  ______________   ______________
 |   ________   | |   ________   |
 |  /\\\\////\  | |  /########\  |
