@@ -37,19 +37,19 @@ echo -e "\e[0;33m
 until [ "$ANSWER" == "$ANSWER_EXIT" ];
 do
 sleep 1
-echo -e "\e[0;32mJarvisS: Credits Options:
+echo -e "\e[0;32mJarvisS: Current Credits Options:
                          _______________________________________ 
                         |                                       |
                         |                                       |
-                        |          2)Jarvis Extensions          |
+                        |           1) Encyclopedia             |
                         |                                       |
-                        |           1)Jarvis Manual             |
+                        |              2) Manuals               |
                         |                                       |
-                        |            3)Exit Jarvis              |
+                        |             3)Offical Game            |
                         |                                       |
-                        |           4)Launch Jarvis             |
+                        |          4)From the ground up         |
                         |                                       |
-                        |        5) Back to exier Menu          |
+                        |          5) Back to exier Menu        |
                         |                                       |
                         |_______________________________________|";
 
