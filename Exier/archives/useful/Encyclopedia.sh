@@ -51,7 +51,7 @@ echo -e "\e[1;37mJarvisI: Loading Encyclopedia";
 sleep 3
 echo -e "\e[1;37mJarvisI: Current Manuals:
 
-1)Jarvis Manual
+1)Jarvis Main Manual
 2)Jarvis Cloak Manual
 3)Jarvis Scan Manual
 4)Jarvis Help Manual
@@ -64,12 +64,12 @@ echo -e "\e[1;37mJarvisI: Current Manuals:
 11)Jarvis Programmer Manual
 12)Jarvis Network Manual
 13)Jarvis Thesaurus Manual
-14)Quest Archer
-15)Vs Archer
-16)Archives Archer
-17)Options Archer
-18)Archives
-19)The King
+14)Quest Archer Manual
+15)Vs Archer Manual
+16)Archives Archer Manaual
+17)Options Archer Manual
+18)Archives Manual
+19)The King Manual
 20)Exit to Jarvis";
 
 read ANSWER
