@@ -20,13 +20,14 @@ echo -e "\e[0;33m
 until [ "$ANSWER" == "$ANSWER_EXIT" ];
 do
 
-echo -e "\e[1;32m       						 "
-echo -e "\e[0;30m       JJJJJJJJ    AA     RRRRR   VV    VV  II  SSSSSSSS"
-echo -e "\e[1;32m           JJ     AAAA    RR  RR   V    V   II  SS      "
-echo -e "\e[0;30m           JJ     A  A    RR  RR   VV  VV   II  SSSSSSSS"
-echo -e "\e[1;32m           JJ    AAAAAA   RRRR      V  V    II        SS"
-echo -e "\e[0;30m       JJ  JJ    AA  AA   RR  R     VVVV    II  SSSSSSSS"
-echo -e "\e[1;32m        JJJJ    AAA  AAA  RR   R     VV     II  SSSSSSSS"
+echo -e "\e[1;32m       
+
+    JJJJJJJJ   AA     RRRRR   VV    VV  II  SSSSSSSS
+       JJ     AAAA    RR  RR   V    V   II  SS      
+       JJ     A  A    RR  RR   VV  VV   II  SSSSSSSS
+       JJ    AAAAAA   RRRR      V  V    II        SS
+   JJ  JJ   AA   AA   RR  R     VVVV    II  SSSSSSSS
+    JJJJ   AAA   AAA  RR   R     VV     II  SSSSSSSS";
 
 sleep 1
 echo -e "\e[0;32mJarvisS: Manual Options:
