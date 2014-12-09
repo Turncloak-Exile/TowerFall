@@ -3,13 +3,24 @@
 ANSWER_OFFICIALGAME="1"
 ANSWER_UPTIME="2"
 ANSWER_NOTES="3"
-ANSWER_BACK="back"
+ANSWER_BACK="4"
 
 until [ "$ANSWER" == "$ANSWER_BACK" ];
 do
 
 echo -e "\e[1;33mKing: Available options for Info:
-
+    _______________________________________ 
+   |                                       |
+   |                                       |
+   |          1) See Official Game         |
+   |                                       |
+   |          2) See Total Uptime          |
+   |                                       |
+   |              3) Notes                 |
+   |                                       |
+   |          4)Back to Settings           |
+   |                                       |
+   |_______________________________________|";
 ";
 
 read ANSWER
