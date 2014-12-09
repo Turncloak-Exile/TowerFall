@@ -8,11 +8,16 @@ until [ "$ANSWER" == "$ANSWER_EXIERMENU" ];
 do
 echo -e "\e[1;33mKing: Availble options in Settings:
 
-
-
-
-
-";
+    _______________________________________ 
+   |                                       |
+   |                                       |
+   |            3) Exier Menu              |
+   |                                       |
+   |          1) Enter Password            |
+   |                                       |
+   |               2) Info                 |
+   |                                       |
+   |_______________________________________|";
 
 read ANSWER
 
