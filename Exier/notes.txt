@@ -1,0 +1,22 @@
+```
+ ___    _   ________   _______   _______   ______
+|    \ | | |  ____  | |__   __| |  _____| |  ____|   _
+| | \ \| | | |    | |    | |    |  __|    | |____   |_|
+| |  \   | | |____| |    | |    | |_____  |____  |   _
+|_|   \__| |________|    |_|    |_______|      | |  |_|
+ ______________________________________________| |
+|________________________________________________|
+```
+[NEW NOTE]
+[NEW NOTE]
+[NEW NOTE]
+[NEW NOTE]
+[NEW NOTE]
+
+To save your new note;
+
+1) First save your changes by going to the top left of Leafpad and find the title named File.
+2) Click on the File title and click Save.
+3) If unsure click save a few times just to be sure.
+4) Close Leafpad and return to the Terminal.
+5) Follow the next Instructions.
