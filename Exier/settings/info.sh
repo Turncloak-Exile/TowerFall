@@ -21,7 +21,6 @@ echo -e "\e[1;33mKing: Available options for Info:
    |          4)Back to Settings           |
    |                                       |
    |_______________________________________|";
-";
 
 read ANSWER
 
@@ -29,7 +28,7 @@ if [ "$ANSWER" == "$ANSWER_OFFICIALGAME" ];
   then
   exier/settings/officalgame.sh
  
- elif [ "$ANSWER" == "$ANSWER_UPTIME" ];
+elif [ "$ANSWER" == "$ANSWER_UPTIME" ];
   then
   exier/options/totaluptime.sh 
 
