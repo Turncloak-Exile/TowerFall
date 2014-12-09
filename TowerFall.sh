@@ -71,16 +71,16 @@ if [ "$ANSWER" == "$ANSWER_CONTINUE" ];
 
 elif [ "$ANSWER" == "ANSWER_EXIT" ];
 	then
-	echo -e "\e[1:33mKing: Closing TowerFall";
+	echo -e "\e[1;33mKing: Closing TowerFall";
 	sleep 1
 
 elif [ "$ANSWER" == "ANSWER_SETTINGS" ];
 	then
-	echo -e "\e[1:33mKing: Opening Settings";
+	echo -e "\e[1;33mKing: Opening Settings";
 	sleep 1
 	exier/settings/settingshow.sh
 else
-	echo -e "\e[1:33mKing: Please try again";
+	echo -e "\e[1;33mKing: Please try again";
 fi
 done
 exit
