@@ -53,3 +53,6 @@ elif ["$ANSWER" == "$ANSWER_ " ];
 
 else
   echo -e "\e[1;33mKing: The Password you entered is incorrect. Please try again."
+  
+fi
+done
