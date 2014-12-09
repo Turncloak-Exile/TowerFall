@@ -40,12 +40,12 @@ ____ _____  ___                                       __________
      |/ ";
 echo -e "\e[0;33m           <-----------------------------------------------------------------------------------<<\e[0m"
 echo -e "\e[1;34m 	    									                                                 \e[0m"
-echo -e "\e[1;34m             <-----Written By-----<<       JJJJJJJJ     AA     RRRRR   VV    VV  II  SSSSSSSS    \e[0m"
-echo -e "\e[1;34m	           		          	         JJ      AAAA    RR  RR   V    V   II  SS          \e[0m"
-echo -e "\e[1;34m             <--Turncloak Solider-->	         JJ      A  A    RR  RR   VV  VV   II  SSSSSSSS    \e[0m"
-echo -e "\e[1;34m	          		                        JJ     AAAAAA   RRRR      V  V    II        SS    \e[0m"
-echo -e "\e[1;34m	          >>---Ancient Exile---->      JJ  JJ      AA  AA   RR  R     VVVV    II  SSSSSSSS    \e[0m"
-echo -e "\e[1;34m 	    		                              JJJJ      AAA  AAA  RR   R     VV     II  SSSSSSSS    \e[0m"
+echo -e "\e[1;34m           <-----Written By-----<<       JJJJJJJJ    AA     RRRRR   VV    VV  II  SSSSSSSS    \e[0m"
+echo -e "\e[1;34m	           		             JJ      AAAA    RR  RR   V    V   II  SS          \e[0m"
+echo -e "\e[1;34m           <--Turncloak Solider-->	     JJ      A  A    RR  RR   VV  VV   II  SSSSSSSS    \e[0m"
+echo -e "\e[1;34m	          		             JJ     AAAAAA   RRRR      V  V    II        SS    \e[0m"
+echo -e "\e[1;34m	    >>---Ancient Exile---->      JJ  JJ     AA  AA   RR  R     VVVV    II  SSSSSSSS    \e[0m"
+echo -e "\e[1;34m 	    		                 JJJJ      AAA  AAA  RR   R     VV     II  SSSSSSSS    \e[0m"
 echo -e "\e[1;34m                                                                				              \e[0m"
 echo -e "\e[0;33m           >>----------------------------------------------------------------------------------->\e[0m"
 
@@ -78,7 +78,7 @@ elif [ "$ANSWER" == "ANSWER_SETTINGS" ];
 	then
 	echo -e "\e[1:33mKing: Opening Settings";
 	sleep 1
-	exier/settings
+	exier/settings/settingshow.sh
 else
 	echo -e "\e[1:33mKing: Please try again";
 fi

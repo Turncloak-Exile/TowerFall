@@ -23,54 +23,69 @@ ANSWER_EXITTOJARVIS="20"
 
 sleep 0.5
 echo -e "\e[0;32m 
- 
-       CCCCCC  RRRRR   EEEEE  DDDD    II  TTTTTT SSSSSSS
-      CC    CC RR  RR  EE     DD  D   II  TTTTTT SS    
-      CC       RR  RR  EEEEE  DD   D  II    TT   SSSSSSS
-      CC       RRRR    EE     DD   D  II    TT        SS
-      CC    CC RR  R   EE     DD  D   II    TT   SSSSSSS 
-       CCCCCC  RR   R  EEEEE  DDDD    II    TT   SSSSSSS                    \e[0m";   
-
+_________                                                                              
+| _______|                                                                             
+| |___      __   __  _____   __  __   ____    _       _____   _____   ______   _____    _______     ___
+|  ___|    |   \ | | | ___|  \ \/ /  |  __|  | |     | ___ | |  __ | | |____| | ___  | |__   __|   / _ \
+| |______  | |\ \  | | |__    \  /   | |__   | |___  | |_| | | |_| | | |____| | |_/ /   __| |__   / /_\ \
+|________| |_|  \__| \____|   |_|    \____|  |_____| |_____| | ___/  |_|____| |____/   |_______| /_/   \_\
+                                                             | | 
+                                                             |_|";
 echo -e "\e[0;33m
 
  					          
-       -TURNCLOAK SOLIDER-               -ANCIENT EXILE-          		
+       -TURNCLOAK SOLIDER-               					-ANCIENT EXILE-";        		
 																			\e[0m";
-sleep 2
-echo -e "\e[1;34m        JJJJJJJJ    AA     RRRRR   VV    VV  II  SSSSSSSS	\e[0m";
-echo -e "\e[1;34m            JJ     AAAA    RR  RR   V    V   II  SS      	\e[0m";
-echo -e "\e[1;34m            JJ     A  A    RR  RR   VV  VV   II  SSSSSSSS	\e[0m";
-echo -e "\e[1;34m            JJ    AAAAAA   RRRR      V  V    II        SS	\e[0m";
-echo -e "\e[1;34m        JJ  JJ    AA  AA   RR  R     VVVV    II  SSSSSSSS	\e[0m";
-echo -e "\e[1;34m         JJJJ    AAA  AAA  RR   R     VV     II  SSSSSSSS	\e[0m";
 
 until [ "$ANSWER" == "$ANSWER_LAUNCH" ];
 do
 
 echo -e "\e[1;37mJarvisI: Loading Encyclopedia";
 sleep 3
-echo -e "\e[1;37mJarvisI: Current Manuals:
-
-1)Jarvis Manual
-2)Jarvis Cloak Manual
-3)Jarvis Scan Manual
-4)Jarvis Help Manual
-5)Jarvis Zap Manual
-6)Jarvis Google Manual
-7)Jarvis Maths Manual
-8)Jarvis Information Manual
-9)Jarvis Education Manual
-10)Jarvis Attack Manual
-11)Jarvis Programmer Manual
-12)Jarvis Network Manual
-13)Jarvis Thesaurus Manual
-14)Quest Archer
-15)Vs Archer
-16)Archives Archer
-17)Options Archer
-18)Archives
-19)The King
-20)Exit to Jarvis";
+echo -e "\e[1;37mJarvisI: What do you want to know?
+    _______________________________________ 
+   |                                       |
+   |                                       |
+   |          8)JarvisI Manual             |
+   |                                       |
+   |          11)JarvisP Manual            |
+   |                                       |
+   |          13)JarvisT Manual            |
+   |                                       |
+   |         16)ArcArcher Manual           |
+   |                                       |
+   |           9)JarvisE Manual            |
+   |                                       |
+   |          12)JarvisN Manual            |
+   |                                       |
+   |          17)OptArcher Manual          |
+   |                                       |
+   |           10)JarvisA Manual           |
+   |                                       |
+   |        12)Quest Archer Manual         |
+   |                                       |
+   |           6)JarvisG Manual            |
+   |                                       |
+   |           2)JarvisC Manual            |
+   |                                       |
+   |           7)JarvisM Manual            |
+   |                                       |
+   |            1)Jarvis Manual            |
+   |                                       |
+   |            3)JarvisS Manual           |
+   |                                       |
+   |          4)Jarvis Help Manual         |
+   |                                       |
+   |            5)JarvisZ Manual           |
+   |                                       |
+   |           15)Vs Archer Manual         |
+   |                                       |
+   |            18)Archives Manual         |
+   |                                       |
+   |           19)The Kings Manual         |
+   |                                       |
+   |            20)Exit to Jarvis          |
+   |_______________________________________|";
 
 read ANSWER
 
