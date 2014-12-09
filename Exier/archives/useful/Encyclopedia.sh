@@ -23,14 +23,13 @@ ANSWER_EXITTOJARVIS="20"
 
 sleep 0.5
 echo -e "\e[0;32m 
- 
-       CCCCCC  RRRRR   EEEEE  DDDD    II  TTTTTT SSSSSSS
-      CC    CC RR  RR  EE     DD  D   II  TTTTTT SS    
-      CC       RR  RR  EEEEE  DD   D  II    TT   SSSSSSS
-      CC       RRRR    EE     DD   D  II    TT        SS
-      CC    CC RR  R   EE     DD  D   II    TT   SSSSSSS 
-       CCCCCC  RR   R  EEEEE  DDDD    II    TT   SSSSSSS                    \e[0m";   
-
+_________
+| _______|
+| |___      __    _  _____   __  __
+|  ___|    |   \ | | | ___|  \ \/ /
+| |______  | |\ \  | | |__    \  /
+|________| |_|  \__| \____|   |_|
+""
 echo -e "\e[0;33m
 
  					          
