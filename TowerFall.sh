@@ -2,7 +2,7 @@
 
 ANSWER_CONTINUE="x"
 ANSWER_EXIT="10"
-
+ANSWER_SETTINGS="s"
 clear
 
 echo -e "\e[1;33mKing: Checking Relevent Permissions"
@@ -57,8 +57,10 @@ do
 sleep 2
 					
 echo -e "\e[0;33m							                                                       \e[0m"
-echo -e "\e[1;33m                                    Press: x to continue   				          \e[0m"
-echo -e "\e[0;33m	                     	  Press: 10 to exit TowerFall				               \e[0m"	
+echo -e "\e[1;33m                                    Press: x to continue   	                                       \e[0m"
+echo -e "\e[0;33m	                     	     Press: s for settings				               \e[0m"	
+echo -e "\e[0;33m	                     	  Press: 10 to exit TowerFall				               \e[0m"
+
 read ANSWER
 
 if [ "$ANSWER" == "$ANSWER_CONTINUE" ];
@@ -71,6 +73,12 @@ elif [ "$ANSWER" == "ANSWER_EXIT" ];
 	then
 	echo -e "\e[1:33mKing: Closing TowerFall";
 	sleep 1
+
+elif [ "$ANSWER" == "ANSWER_SETTINGS" ];
+	then
+	echo -e "\e[1:33mKing: Opening Settings";
+	sleep 1
+	exier/settings
 else
 	echo -e "\e[1:33mKing: Please try again";
 fi
