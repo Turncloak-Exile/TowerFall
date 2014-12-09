@@ -1,9 +1,11 @@
 #!/bin/bash
 
-ANSWER_MANUAL="1"
-ANSWER_EXTENTIONS="2"
-ANSWER_LAUNCH="3"
-ANSWER_EXIT="4"
+ANSWER_ENCYCLOPEDIA="1"
+ANSWER_MANUALS="2"
+ANSWER_OFFICIALGAME="3"
+ANSWER_FROMTHEGROUNDUP="4"
+ANSWER_EXIERMENU="5"
+
 echo -e "\e[0;33m
 
  ____ _____  ___                                       __________
@@ -55,34 +57,31 @@ echo -e "\e[0;32mJarvisS: Current Credits Options:
 
 read ANSWER 
 
-if [ "$ANSWER" == "$ANSWER_MANUAL" ]; 
+if [ "$ANSWER" == "$ANSWER_ENCYCLOPEDIA" ]; 
 	then
 	sleep 1
-	options/credits/creditsJ.sh
+	exier/archives/useful/Encyclopedia.sh
 	sleep 2
 
-elif [ "$ANSWER" == "$ANSWER_EXTENTIONS" ];
+elif [ "$ANSWER" == "$ANSWER_MANUALS" ];
 	then
 	sleep 1		
-	options/scripts/showextensions.sh
 
 
-elif [ "$ANSWER" == "$ANSWER_LAUNCH" ];
+elif [ "$ANSWER" == "$ANSWER_OFFICIALGAME" ];
 	then
 	sleep 1		
-	options/jarvis/Jarvis.sh
+	exier/options/credits/officialgame.sh
 
-elif [ "$ANSWER" == "$ANSWER_EXIT" ];
+elif [ "$ANSWER" == "$ANSWER_FROMTHEGROUNDUP" ];
 	then
 	sleep 1
-	echo -e "\e[0;33mJarvis Shutting down"
-	sleep 1
-	echo -e "\e[0;33mJarvis Closing current terminal"
-	sleep 2
-	
+	exier/archives/useful/fromthegroundup.sh
 
-	
-	
+elif [ "$ANSWER" == "$ANSWER_EXIERMENU" ];
+	then
+	sleep 1
+	echo -e "\e[0;32mJarvisS: Returning to Exier Menu";
 else
 	sleep 1
 fi
