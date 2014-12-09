@@ -17,7 +17,7 @@ until [ "$ANSWER" == "$ANSWER_EXIT" ]; do
 echo -e "\e[1;31mJarvisC: What can I help you with today?\e[0m"
 sleep 2
 echo -e "\e[1;31mJarvisC: macchanger, ipspoof, noping, changehostname, ipcheck all or exit.\e[0m"
-echo NOTICE: Ip spoof is under going maintenance.
+
 
 read ANSWER
 

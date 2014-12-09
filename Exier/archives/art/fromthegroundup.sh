@@ -11,7 +11,7 @@
 52 echo 
 53 echo ----------------------------Powered by Exier------------------------------";
 
-echo Jarvis is the Arc reactor of Towerfall.
+echo "Jarvis is the Arc reactor of Towerfall."
 sleep 1
 echo Jarvis has a power level of over 9000.
 sleep 1

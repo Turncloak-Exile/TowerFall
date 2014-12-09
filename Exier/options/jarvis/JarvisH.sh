@@ -17,37 +17,51 @@ until  [ "$ANSWER" == "$ANSWER_MAINMENU" ];
 do
 sleep 2
 echo -e "\e[0;33m
-                    ????????        ?????????        ??????????
-                   ??????????      ???????????      ????????????
-                 ???       ???    ???       ???    ???        ???
-                 ??         ??    ??         ??    ??          ??
-                            ??               ??                ??
-                          ???              ???               ???
-                      ??????           ??????            ??????
-                    ????             ????              ????
-                     ??               ??                ?? 
-                      ??               ??                ??
-                      ??               ??                ??    
-                                               
-                      ??               ??                ??
-                      ??               ??                ??
 
-     <---------- JarvisH was brought to you by Turncloak Exile ---------->
+               ????????        ?????????        ??????????
+              ??????????      ???????????      ????????????
+            ???       ???    ???       ???    ???        ???
+            ??         ??    ??         ??    ??          ??
+                       ??               ??                ??
+                     ???              ???               ???
+                 ??????           ??????            ??????
+               ????             ????              ????
+                ??               ??                ?? 
+                 ??               ??                ??
+                 ??               ??                ??    
+                                               
+                 ??               ??                ??
+                 ??               ??                ??
+
+<---------- JarvisH was brought to you by Turncloak Exile ---------->
 		         <-------Last updated------->
 		             <-----05/12/15----->				
 "
 
 echo -e "\e[0;33mJarvisH: Available Options:
-	1) Setting up Kali
-	2) Running scripts
-	3) Starting Bash scripts
-	4) Looping Bash scripts 
-	5) Changing your mac adress though the comand prompt
-	6) Changing your IP though the comand prompt
-	7) 
-	8)
-	9)Main Menu
-	10)Exit\e[0m"
+       _______________________________________ 
+      |                                       |
+      |                                       |
+      |    6) Changing Ip through Terminal    |
+      |                                       |
+      |   5) Changing Macc through Terminal   |
+      |                                       |
+      |   3) Starting your own bash scripts   |
+      |                                       |
+      |      4) How to loop bash scripts      |
+      |                                       |
+      |          1) Setting up Kali           |
+      |                                       |
+      |          2)Running of scripts         |
+      |                                       |
+      |          7) N/A at this time          |
+      |                                       |
+      |          8) N/A at this time          |
+      |                                       |
+      |               10) Exit                |
+      |                                       |
+      |              9) Main Menu             |
+      |_______________________________________|";
 
 read ANSWER
 
