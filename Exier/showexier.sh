@@ -5,6 +5,7 @@ ANSWER_ARCHIVES="2"
 ANSWER_OPTIONS="3"
 ANSWER_QUESTS="4"
 ANSWER_VS="5"
+ANSWER_SETTINGS="6"
 ANSWER_BACKTOKING="10"
 
 until [ "$ANSWER" == "$ANSWER_MAINMENU" ];
@@ -15,18 +16,19 @@ echo -e "\e[1;32mExier: Available Options:
     _______________________________________ 
    |                                       |
    |                                       |
-   |           10)Back to King             |
+   |           10) Back to King            |
    |                                       |    
-   |             2)Archives                |
+   |             2) Archives               |
    |                                       |
-   |              3)Options                |
+   |              3) Options               |
    |                                       |
-   |              4)Quests                 |
+   |              4) Quests                |
    |                                       |
-   |              1)Archers                |
+   |              1) Archers               |
    |                                       |
-   |                5)Vs                   |
+   |                5) Vs                  |
    |                                       |
+   |              6) Settings              |
    |_______________________________________|"
 
 read ANSWER
@@ -65,6 +67,12 @@ elif [ "$ANSWER" == "ANSWER_VSARCHER" ];
 elif [ "$ANSWER" == "ANSWER_BACKTOKING" ];
 	then
 	echo -e "\e[1;32mExier: Returning to King";
+	
+elif [ "$ANSWER" == "ANSWER_SETTINGS" ];
+	then
+	echo -e "\e[1;32mExier: Loading Settings";
+	sleep 1
+	exier/settings/showsettings.sh
 else
 	echo -e "\e[1;32mExier: Unrecogised Response. Reloading Options";	
 	sleep 1
