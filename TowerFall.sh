@@ -67,7 +67,7 @@ elif [ "$ANSWER" == "ANSWER_EXIT" ];
 
 elif [ "$ANSWER" == "ANSWER_SETTINGS" ];
 	then
-	echo -e "\e[1:33mKing: Opening Settings";
+	echo -e "\e[1;33mKing: Opening Settings";
 	sleep 1
 	exier/settings/settingshow.sh
 else
