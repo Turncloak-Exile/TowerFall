@@ -30,7 +30,7 @@ if [ "$ANSWER" == "$ANSWER_OFFICIALGAME" ];
  
 elif [ "$ANSWER" == "$ANSWER_UPTIME" ];
   then
-  exier/options/totaluptime.sh 
+  exier/options/utilities/totaluptime.sh 
 
 elif [ "$ANSWER" == "$ANSWER_NOTES" ];
   then

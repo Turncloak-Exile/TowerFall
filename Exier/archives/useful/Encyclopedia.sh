@@ -31,10 +31,10 @@ _________
 |________| |_|  \__| \____|   |_|    \____|  |_____| |_____| | ___/  |_|____| |____/   |_______| /_/   \_\
                                                              | | 
                                                              |_|";
-echo -e "\e[0;33m
+echo -e "\e[38;5;3m
 
  					          
-       -TURNCLOAK SOLIDER-               					-ANCIENT EXILE-";        		
+       -TURNCLOAK SOLIDER-   \e[38;5;7m            					-ANCIENT EXILE-";        		
 																			\e[0m";
 
 until [ "$ANSWER" == "$ANSWER_LAUNCH" ];

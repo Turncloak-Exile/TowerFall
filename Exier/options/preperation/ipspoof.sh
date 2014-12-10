@@ -7,13 +7,7 @@ echo Proceeding to load ipspoof.sh
 sleep 1
 echo "Available servers
 	1) tcp443
-	2) udp43
-	3)
-	4)
-	5)
-	6)
-	7)
-	8)"
+	2) udp43";
 
 echo What server would you like to connect to?;
 sleep 1
