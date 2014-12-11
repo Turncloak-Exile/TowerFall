@@ -34,7 +34,7 @@ _________
 echo -e "\e[0;33m
 
  					          
-       -TURNCLOAK SOLIDER-               					-ANCIENT EXILE-";        		
+       -TURNCLOAK SOLIDER-               					-ANCIENT EXILE-       		
 																			\e[0m";
 
 until [ "$ANSWER" == "$ANSWER_LAUNCH" ];

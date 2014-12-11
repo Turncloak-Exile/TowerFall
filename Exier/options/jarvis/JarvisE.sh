@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ANSWER_TEST="4"
+ANSWER_="4"
 ANSWER_MAIN_MENU="2"
 
 echo -e "\e[1;38mJarvisE: Now loading Jarvise Education\e[0m"
@@ -14,14 +14,14 @@ echo -e "\e[1;38mJarvisE: Available Options:
 	 ____________________________________
 	|                                    |
 	|                                    |
-	|              4) Test               |	
+	|              4) N/a                |	
 	|                                    |
-	|      3)                            |
+	|              3) N/a                |
 	|                                    |
-	|      1)                            |
-	|				     |
+	|              1) N/a                |
+	|				                     |
 	|            2) Main Menu            |
-        |                                    |  
+    |                                    |  
 	|____________________________________|\e[0m"
  				     
 read ANSWER
