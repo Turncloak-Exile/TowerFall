@@ -1,9 +1,11 @@
 #!/bin/bash
 
 ANSWER_="4"
+ANSWER_="3"
+ANSWER_="1"
 ANSWER_MAIN_MENU="2"
 
-echo -e "\e[1;38mJarvisE: Now loading Jarvise Education\e[0m"
+echo -e "\e[1;38mJarvisE: Now loading Jarvis Education";
 sleep 2
 
 until [ "$ANSWER" == "$ANSWER_MAIN_MENU" ];
@@ -22,17 +24,12 @@ echo -e "\e[1;38mJarvisE: Available Options:
 	|				                     |
 	|            2) Main Menu            |
     |                                    |  
-	|____________________________________|\e[0m"
+	|____________________________________|";
  				     
 read ANSWER
 
-if [ "$ANSWER" == "$ANSWER_TEST" ]; 
-then
-	echo this is a test
-	sleep 1
-
-elif [ "$ANSWER" == "$ANSWER_MAIN_MENU" ]; 
-then
+if [ "$ANSWER" == "$ANSWER_MAIN_MENU" ]; 
+	then
 	echo -e "\e[1;38mJarvisE: Now returning to main menu"
 	sleep 2
 

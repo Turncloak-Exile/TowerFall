@@ -29,15 +29,15 @@ if [ "ANSWER" == "$ANSWER_EXIT" ];
 	then
 	sleep 1
 	echo -e "\e[1;33mJarvisZ: Now Closing Jarvisz";
-	sleep 0.5
+	sleep 1
 	echo -e "\e[1;33mJarvisZ: Returning to Main menu";
 
-
 else
-	sleep 0.5
+	sleep 1
 	echo -e "\e[1;34mJarvis: Please type in the desired process to kill";
 	sleep 2
 	kill $ANSWER
+	sleep 1
 	echo -e "\e[1;34mJarvis: Desired process has terminated";
 	sleep 1
 	echo -e "\e[1;34mJarvis: Returning to Main menu";

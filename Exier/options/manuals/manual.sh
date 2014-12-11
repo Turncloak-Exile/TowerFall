@@ -34,15 +34,14 @@ _________
 echo -e "\e[0;33m
 
  					          
-       -TURNCLOAK SOLIDER-               					-ANCIENT EXILE-       		
-																			\e[0m";
+       -TURNCLOAK SOLIDER-               					-ANCIENT EXILE-";
 
 until [ "$ANSWER" == "$ANSWER_LAUNCH" ];
 do
 
 echo -e "\e[1;37mJarvisI: Loading Encyclopedia";
 sleep 3
-echo -e "\e[1;37mJarvisI: What do you want to know?
+echo -e "\e[1;37mJarvisI: What do you want to read?
     _______________________________________ 
    |                                       |
    |                                       |

@@ -12,20 +12,31 @@ ANSWER_MAINMENU="9"
 ANSWER_EXIT="10"
 
 echo Loading JarvisI
-sleep 0.5
-echo JarvisI loaded
 sleep 1
 echo -e "\e[0;37mJarvisI: Hello what type of information do you require?
-	1)Ram Usage
-	2)HDD storage
-	3)Memory Usage
-	4)Partition Manipulator
-	5)ReadySetHack
-	6)ReadySetScript
-	7)ReadySetCloak
-	8)ReadySetZap
-	9) Main menu
-	10) Exit"
+	   _______________________________________ 
+      |                                       |
+      |                                       |
+      |       4)Partition Manipulator         |
+      |                                       |
+      |          6)ReadySetScript             |
+      |                                       |
+      |          7)ReadySetCloak              |
+      |                                       |
+      |           5)ReadySetHack              |
+      |                                       |
+      |           3)Memory Usage              |
+      |                                       |
+      |           8)ReadySetZap               |
+      |                                       |
+      |            9)Main Menu                |
+      |                                       |
+      |            1)Ram Usage                |
+      |                                       |
+      |               10) Exit                |
+      |                                       |
+      |            2)HDD Storage              |
+      |_______________________________________|";
 
 read ANSWER
 
@@ -63,23 +74,19 @@ elif [ "$ANSWER" == "$ANSWER_READYSETZAP" ];
 
 elif [ "$ANSWER" == "$ANSWER_MAINMENU" ];
 	then
-	sleep 0.5
 
 elif [ "$ANSWER" == "$ANSWER_EXIT" ];
-then
+	then
  	sleep 1
-	echo -e "\e[1;34mJarvis: Preparing to close Jarvis\e[0m"
+	echo -e "\e[1;34mJarvis: Preparing to close Jarvis";
 	sleep 2
-	echo Closing Jarvis
+	echo "Closing Jarvis";
 	sleep 2
-	echo Jarvis has Closed
+	echo "Jarvis has Closed";
 	
 
 else 	
 	sleep 1
-	echo -e "\e[1;34mJarvis: Unrecognised reply. Returning to Main menu"
-	
-	
- 	
+	echo -e "\e[1;34mJarvis: Unrecognised reply. Returning to Main menu";
 fi
-
+done

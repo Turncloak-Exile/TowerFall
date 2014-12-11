@@ -1,5 +1,4 @@
 #!/bin/bash
 
-sleep 2
-echo Currently under going maintenance
-sleep 2
+echo "Jarvis Attack is currently under maintenance"
+sleep 1

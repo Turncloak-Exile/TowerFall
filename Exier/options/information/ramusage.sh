@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo Currently undergoing maintenance
-sleep 2
+echo "Ram usage is currently under maintenance"
+sleep 1

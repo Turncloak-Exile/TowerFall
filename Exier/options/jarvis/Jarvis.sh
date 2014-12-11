@@ -30,9 +30,8 @@ sleep 0.5
 
 echo Proceeding
 sleep 1
-sleep 0.5
 echo -e "\e[0;33mJarvisH: Please Reboot Jarvis if logo appears to be Bold and the colour Cyan."
-sleep 0.5
+sleep 1
 echo -e "\e[0;33mJarvisH: This will prevent Jarvis from launching another Jarvis inside himself"
 sleep 2
 echo -e "\e[0;32mJarvisS: Finding Jarvis"

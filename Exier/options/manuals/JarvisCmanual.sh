@@ -8,7 +8,7 @@ echo -e "\e[1;31m
       JJ  JJ    AA  AA   RR  R     VVVV    II  SSSSSSSS
        JJJJ    AAA  AAA  RR   R     VV     II  SSSSSSSS
 
-			               MANUAL OPTIONS:
+			              MANUAL OPTIONS:
 		              25)What is JarvisC?
               26)How do I Install Jarvis?
                  27)How big is Jarvis?
