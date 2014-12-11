@@ -7,8 +7,8 @@ ANSWER_UPDATEREPOSITORIES="4"
 ANSWER_ZAPPER="5"
 ANSWER_TWEAKSOURCELIST="6"
 ANSWER_RESTORE="7"
-ANSWER_FORMATTOOL="9"
-ANSWER_MAINMENU="10"
+ANSWER_FORMATTOOL="8"
+ANSWER_MAINMENU="9"
 
 until [ "$ANSWER" == "ANSWER_MAINMENU" ];
 do
@@ -20,26 +20,22 @@ echo -e "\e[1;33m
     _______________________________________ 
    |                                       |
    |           1)Clear History             |
-   |
-            2)Clear Internet Cache 
-
-             3)Empty Wastebasket
-
-           4)Update Repositories
-
-              5)Process Zapper
-
-            6)Tweak Source.list
-
-           7)Restore all defaults
-
-                   8)N/A
-
-              9)Formatting Tool
-
-                10)Main Menu
-
-                  11)Exit                  
+   |                                       |
+   |        2)Clear Internet Cache         |
+   |                                       |
+   |         3)Empty Wastebasket           |
+   |                                       |
+   |       4)Update Repositories           |
+   |                                       |
+   |          5)Process Zapper             |
+   |                                       |
+   |        6)Tweak Source.list            |
+   |                                       |
+   |       7)Restore all defaults          |
+   |                                       |
+   |          8)Formatting Tool            |
+   |                                       |
+   |            9)Main Menu                |
    |                                       |
    |_______________________________________|";
 

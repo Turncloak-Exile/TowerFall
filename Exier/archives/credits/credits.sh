@@ -34,7 +34,7 @@ echo -e "\e[0;32m
 echo -e "\e[0;33m
 
  					          
-                     -TURNCLOAK SOLIDER-               -ANCIENT EXILE-"
+                     -TURNCLOAK SOLIDER-               -ANCIENT EXILE-";
 
 until [ "$ANSWER" == "$ANSWER_EXIT" ];
 do
@@ -51,7 +51,7 @@ echo -e "\e[0;32mJarvisS: Current Credits Options:
                         |                                       |
                         |          4)From the ground up         |
                         |                                       |
-                        |          5) Back to exier Menu        |
+                        |          5)Back to exier Menu         |
                         |                                       |
                         |_______________________________________|";
 
@@ -65,7 +65,8 @@ if [ "$ANSWER" == "$ANSWER_ENCYCLOPEDIA" ];
 
 elif [ "$ANSWER" == "$ANSWER_MANUALS" ];
 	then
-	sleep 1		
+	sleep 1	
+  exier/archives/manuals/showmanuals.sh	
 
 
 elif [ "$ANSWER" == "$ANSWER_OFFICIALGAME" ];

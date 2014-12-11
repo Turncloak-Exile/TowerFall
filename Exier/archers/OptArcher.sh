@@ -26,12 +26,6 @@ echo -e "\e[0;32mOptions Archer: Current options available:
    |                                       |
    |_______________________________________|";
 
-1)Launch Jarvis
-2)Manuals
-3)Wallpapers
-4)Credits
-5)Return to Exier Menu";
-
 read ANSWER
 
 if [ "$ANSWER" == "$ANSWER_LAUNCH" ];

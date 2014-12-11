@@ -6,7 +6,8 @@ ANSWER_EXIERMENU="3"
 
 until [ "$ANSWER" == "$ANSWER_EXIERMENU" ];
 do
-echo -e "\e[1;33mKing: Availble options in Settings:
+
+echo -e "\e[1;33mKing: Availble options for Settings:
 
     _______________________________________ 
    |                                       |

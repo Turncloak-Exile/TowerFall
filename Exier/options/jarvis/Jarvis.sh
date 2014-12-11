@@ -111,7 +111,7 @@ elif [ "$ANSWER" == "$ANSWER_TUTORIALS" ];
 elif [ "$ANSWER" == "$ANSWER_ANGELS" ];
 	then
 	sleep 1		
-	options/jarvis/JarvisS.sh
+	options/angels/showangels.sh
 
 elif [ "$ANSWER" == "$ANSWER_EXTENSIONS" ];
 	then

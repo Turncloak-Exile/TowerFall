@@ -33,8 +33,7 @@ echo -e "\e[0;33m
 
 <---------- JarvisH was brought to you by Turncloak Exile ---------->
 		         <-------Last updated------->
-		             <-----05/12/15----->				
-";
+		             <-----05/12/15----->";
 
 sleep 1
 echo -e "\e[0;33mJarvisH: Available Options:

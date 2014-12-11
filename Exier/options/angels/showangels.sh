@@ -15,35 +15,34 @@ ANSWER_WORDLISTGEN="12"
 ANSWER_AIRCRACK="13"
 ANSWER_HOSTFINDER="14"
 ANSWER_WIFIJAMMER="15"
-ANSWER_MAINMENU="101"
+ANSWER_BACK="101"
 
 sleep 1
+echo -e "\e[1;34mJarvis: Loading our Angels";
+sleep 1
 
-until [ "$ANSWER" == "$ANSWER_MAINMENU" ];
+until [ "$ANSWER" == "$ANSWER_JARVIS" ];
 do
 
-echo -e "\e[1;34mJarvisS: Options available: 
+echo -e "\e[1;34mJarvis: Angels available: 
     _______________________________________ 
    |                                       |
    |                                       |
-   | 1)Jarvis 
+   |                                       |
+   |                                       |
+   |_______________________________________|"; 
+
+1)Jarvis 
 2)Jarvis Cloaker
 3)Jarvis Scaner
-4)Jarvis Helper
 5)Jarvis Zapper
-6)Jarvis Googler
-7)Jarvis Maths
-8)Jarvis Information
-9)Jarvis Education
 10)Jarvis Attack
 11)Airodump
 12)Aircrack WordlistGen
 13)Aircrack
 14)Host Finder
 15)Wifi Jammer
-101) Main Menu                           
-   |                                       |
-   |_______________________________________|";
+101)Previous menu
 
 read ANSWER
 
@@ -156,13 +155,18 @@ elif [ "$ANSWER" == "$ANSWER_WIFIJAMMER" ];
 	exier/options/scan/wifijammer.sh
 
 
-elif [ "$ANSWER" == "$ANSWER_MAINMENU" ];
+elif [ "$ANSWER" == "$ANSWER_BACK" ];
 	then
-	echo -e "\e[0;32mJarvisS: Now loading previous menu";
+	echo -e "\e[0;32mJarvisS: Now loading Previous menu";
+	sleep 2
+
+elif [ "$ANSWER" == "$ANSWER_EXIT" ];
+	then
+	echo -e "\e[0;32mJarvisS: Closing JarvisS";
 	sleep 2
 
 else
-	echo -e "\e[0;32mJarvisS: Unknown Response. Please enter valid password";
+	echo -e "\e[0;32mJarvisS: Closing JarvisS";
 	sleep 2
 
 fi
