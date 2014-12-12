@@ -1,14 +1,11 @@
 #!/bin/bash
 
-ANSWER_JARVIS="1"
 ANSWER_JARVISC="2"
 ANSWER_JARVISZ="5"
 ANSWER_JARVISA="10"
 ANSWER_AIRODUMP="11"
 ANSWER_WORDLISTGEN="12"
 ANSWER_AIRCRACK="13"
-ANSWER_HOSTFINDER="14"
-ANSWER_WIFIJAMMER="15"
 ANSWER_BACK="101"
 
 sleep 1
@@ -27,13 +24,7 @@ echo -e "\e[1;34mJarvis: Angels available:
    |                                       |
    |              13)Aircrack              |
    |                                       |
-   |             15)Wifi Jammer            |
-   |                                       |
-   |             14)Host Finder            |
-   |                                       |
    |                101)Back               |
-   |                                       |
-   |                1)Jarvis               |
    |                                       |
    |             2)Jarvis Cloaker          |
    |                                       |
@@ -45,32 +36,12 @@ echo -e "\e[1;34mJarvis: Angels available:
 
 read ANSWER
 
-if [ "$ANSWER" == "$ANSWER_JARVIS" ]; 
-	then
-	sleep 2
-	echo -e "\e[0;32mJarvisS: You are already in Jarvis";
-	sleep 2
-
-elif [ "$ANSWER" == "$ANSWER_JARVISC" ]; 
+if [ "$ANSWER" == "$ANSWER_JARVISC" ]; 
 	then
 	sleep 2
 	echo -e "\e[0;32mJarvisS: Now launching JarvisC";
 	sleep 2
 	exier/options/jarvis/JarvisC.sh
-
-elif [ "$ANSWER" == "$ANSWER_JARVISH" ]; 
-	then
-	sleep 2
-	echo -e "\e[0;32mJarvisS: Now launching JarvisH";
-	sleep 2
-	exier/options/jarvis/JarvisH.sh
-
-elif [ "$ANSWER" == "$ANSWER_JARVISS" ]; 
-	then
-	sleep 2
-	echo -e "\e[0;32mJarvisS: Now launching JarvisS";
-	sleep 2
-	exier/options/jarvis/JarvisS.sh
 
 
 elif [ "$ANSWER" == "$ANSWER_JARVISZ" ]; 
@@ -80,34 +51,6 @@ elif [ "$ANSWER" == "$ANSWER_JARVISZ" ];
 	sleep 2
 	exier/options/JarvisZ.sh
 
-
-elif [ "$ANSWER" == "$ANSWER_JARVISG" ]; 
-	then
-	sleep 2
-	echo -e "\e[0;32mJarvisS: Now launching JarvisG";
-	sleep 2
-	exier/options/JarvisG.sh
-
-elif [ "$ANSWER" == "$ANSWER_JARVISM" ]; 
-	then
-	sleep 2
-	echo -e "\e[0;32mJarvisS: Now launching JarvisM";
-	sleep 2
-	exier/options/JarvisM.sh
-
-elif [ "$ANSWER" == "$ANSWER_JARVISI" ]; 
-	then
-	sleep 2
-	echo -e "\e[0;32mJarvisS: Now launching JarvisI";
-	sleep 2
-	exier/options/JarvisI.sh
-
-elif [ "$ANSWER" == "$ANSWER_JARVISE" ]; 
-	then
-	sleep 2
-	echo -e "\e[0;32mJarvisS: Now launching JarvisE";
-	sleep 2
-	exier/options/JarvisE.sh
 
 elif [ "$ANSWER" == "$ANSWER_JARVISA" ]; 
 	then
@@ -130,29 +73,12 @@ elif [ "$ANSWER" == "$ANSWER_AIRCRACK" ];
 	sleep 2	
 	exier/options/scan/aircrack.sh
 
-
-elif [ "$ANSWER" == "$ANSWER_HOSTFINDER" ];
-	then
-	sleep 1	
-	echo -e "\e[0;32mJarvisS: Now loading hostfinder.sh ";
-	sleep 2	
-	exier/options/scan/hostfinder.sh
-
 elif [ "$ANSWER" == "$ANSWER_WORDLISTGEN" ];
 	then
 	sleep 1	
 	echo -e "\e[0;32mJarvisS: Now loading Aircrack WordlistGen ";
 	sleep 2	
 	exier/options/scan/VMpassword.sh
-
-
-elif [ "$ANSWER" == "$ANSWER_WIFIJAMMER" ];
-	then
-	sleep 1	
-	echo -e "\e[0;32mJarvisS: Now loading WifiJammer.sh ";
-	sleep 2	
-	exier/options/scan/wifijammer.sh
-
 
 elif [ "$ANSWER" == "$ANSWER_BACK" ];
 	then

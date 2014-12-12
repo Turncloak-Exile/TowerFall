@@ -9,14 +9,12 @@ ANSWER_MYDEVICE="7"
 ANSWER_SHORTCUT="8"
 ANSWER_TOOLS="9"
 ANSWER_UTILITIES="10"
-ANSWER_EXIT="11"
-ANSWER_REBOOT="69"
 ANSWER_INFORMATION="8008"
 ANSWER_CREDITS="101"
 
 clear
-chmod +x options/preperation/grantall.sh
-options/preperation/grantall.sh
+chmod +x exier/options/preperation/grantall.sh
+exier/options/preperation/grantall.sh
 sleep 2
 echo Proceeding
 
@@ -25,7 +23,7 @@ sleep 2
 
 echo -e "\e[0;33mJarvisH: Loading Manual"
 sleep 1
-options/credits/creditsJ.sh
+exier/options/credits/creditsJ.sh
 sleep 0.5
 
 echo Proceeding
@@ -88,10 +86,6 @@ echo -e "\e[1;34mJarvis: Options available:
    |              69)Reboot                |
    |                                       |
    |             101) Credits              |
-   |                                       |
-   |               11) Exit                |
-   |                                       |
-   |                5)N/A                  |
    |                                       |
    |_______________________________________|";
 
@@ -158,22 +152,7 @@ elif [ "$ANSWER" == "$ANSWER_INFORMATION" ];
 elif [ "$ANSWER" == "$ANSWER_CREDITS" ];
 	then
 	sleep 1		
-	exier/options/credits/creditsJ.sh
-
-
-elif [ "$ANSWER" == "$ANSWER_EXIT" ];
-then
- 	sleep 1
-	echo -e "\e[1;34mJarvis: Preparing to close Jarvis\e[0m"
-	sleep 2
-	echo Closing Jarvis
-	sleep 2
-	echo Jarvis has Closed
-
-elif [ "$ANSWER" == "$ANSWER_REBOOT" ];
-	then
-	sleep 1		
-	exier/options/reboot/reboot.sh
+	exier/archives/credits/credits.sh
 
 elif [ "$ANSWER" == "$ANSWER_INFORMATION" ];
 	then

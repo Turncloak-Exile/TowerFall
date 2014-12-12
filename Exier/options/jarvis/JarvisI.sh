@@ -3,7 +3,6 @@
 ANSWER_RAMUSAGE="1"
 ANSWER_HDDSTORAGE="2"
 ANSWER_READYSETHACK="5"
-ANSWER_READYSETSCRIPT="6"
 ANSWER_READYSETCLOAK="7"
 ANSWER_READYSETZAP="8"
 ANSWER_MAINMENU="9"
@@ -14,8 +13,6 @@ sleep 1
 echo -e "\e[0;37mJarvisI: Hello what type of information do you require?
 	   _______________________________________ 
       |                                       |
-      |                                       |
-      |          6)ReadySetScript             |
       |                                       |
       |          7)ReadySetCloak              |
       |                                       |
@@ -29,7 +26,7 @@ echo -e "\e[0;37mJarvisI: Hello what type of information do you require?
       |                                       |
       |              10) Exit                 |
       |                                       |
-      |            2)HDD Storage              |
+      |           2)HDD Storage               |
       |_______________________________________|";
 
 read ANSWER
@@ -48,7 +45,7 @@ elif [ "$ANSWER" == "$ANSWER_MEMORYUSAGE" ];
 
 elif [ "$ANSWER" == "$ANSWER_READYSETHACK" ];
 	then
-	exier/options/information/readysethack.sh
+	exier/options/jarvis/JarvisA.sh
 
 elif [ "$ANSWER" == "$ANSWER_READYSETSCRIPT" ];
 	then

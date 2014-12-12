@@ -2,7 +2,6 @@
 ANSWER_INSTALL="1"
 ANSWER_CONFIG="2"
 ANSWER_BOTH="3"
-ANSWER_QUEST="red or white"
 ANSWER_BACK="5"
 
 until [ "$ANSWER" == "$ANSWER_BACK"]
@@ -31,7 +30,7 @@ elif [ "$ANSWER" == "$ANSWER_CONFIG" ];
 
 elif [ "$ANSWER" == "$ANSWER_BOTH" ];
 	then
-	echo "Proceeding to Install Wine";
+	echo "Proceeding to Install Wine [Must have full reposistories in source.list]";
 	sleep 1
 	dpkg –add-architecture i386
 	sleep 1

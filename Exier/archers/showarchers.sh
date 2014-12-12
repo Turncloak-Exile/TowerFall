@@ -23,7 +23,7 @@ echo -e "\e[1;32mExier: Archers Available:
    |                                       |
    |              10)Main Menu             |
    |                                       |
-   |               3)VsArcher              |
+   |               4)VsArcher              |
    |_______________________________________|";
 
 read ANSWER
@@ -32,7 +32,7 @@ if [ "$ANSWER" == "ANSWER_OPTARCHER" ];
 	then
 	echo -e "\e[1;32mExier: Loading Options Archer"
 	sleep 1
-	exier/options/OptArcher.sh
+	exier/archers/OptArcher.sh
 
 elif [ "$ANSWER" == "ANSWER_ARCARCHER" ];
 	then

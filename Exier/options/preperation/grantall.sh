@@ -13,7 +13,7 @@ sleep 1
 echo -e "\e[1;33mKing: Exier Menus check complete \e[0m"
 sleep 1
 echo Proceeding
-sleep 2
+sleep 1
 echo -e "\e[1;33mKing: Checking Archer Menus \e[0m"
 sleep 1
 echo -e "\e[1;33mKing: Archer Menus check complete \e[0m"

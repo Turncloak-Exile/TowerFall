@@ -33,6 +33,6 @@ if [ "$ANSWER" == "$ANSWER_ACEOFSPADES" ];
 	then
 	exier/options/jarvis/aceofspades.sh
 else
-	echo "\e[1;33mKing Code Incorrect";
+	echo "\e[1;33mKing: Code Incorrect";
 fi
 

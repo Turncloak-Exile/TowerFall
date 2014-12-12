@@ -12,8 +12,6 @@ ANSWER_EXIT="10"
 until  [ "$ANSWER" == "$ANSWER_MAINMENU" ];
 do
 
-echo -e "\e[1;34mJarvis: Booting JarvisH";
-sleep 1
 echo -e "\e[0;33m
 
                ????????        ?????????        ??????????
@@ -33,36 +31,34 @@ echo -e "\e[0;33m
 
 <---------- JarvisH was brought to you by Turncloak Exile ---------->
 		         <-------Last updated------->
-		             <-----05/12/15----->";
+		             <-----05/12/15----->
 
-sleep 1
-echo -e "\e[0;33mJarvisH: Available Options:
-       _______________________________________ 
-      |                                       |
-      |                                       |
-      |    6) Changing Ip through Terminal    |
-      |                                       |
-      |   5) Changing Macc through Terminal   |
-      |                                       |
-      |   3) Starting your own bash scripts   |
-      |                                       |
-      |      4) How to loop bash scripts      |
-      |                                       |
-      |          1) Setting up Kali           |
-      |                                       |
-      |          2)Running of scripts         |
-      |                                       |
-      |          7) N/A at this time          |
-      |                                       |
-      |          8) N/A at this time          |
-      |                                       |
-      |               10) Exit                |
-      |                                       |
-      |              9) Main Menu             |
-      |_______________________________________|";
+JarvisH: Available Options:
+               _______________________________________ 
+              |                                       |
+              |                                       |
+              |    6) Changing Ip through Terminal    |
+              |                                       |
+              |   5) Changing Macc through Terminal   |
+              |                                       |
+              |   3) Starting your own bash scripts   |
+              |                                       |
+              |      4) How to loop bash scripts      |
+              |                                       |
+              |          1) Setting up Kali           |
+              |                                       |
+              |          2)Running of scripts         |
+              |                                       |
+              |          7) N/A at this time          |
+              |                                       |
+              |          8) N/A at this time          |
+              |                                       |
+              |               10) Exit                |
+              |                                       |
+              |              9) Main Menu             |
+              |_______________________________________|";
 
 read ANSWER
-
 
 if [ "$ANSWER" == "$ANSWER_SETUP" ]; 
 	then
@@ -99,9 +95,11 @@ elif [ "$ANSWER" == "$ANSWER_MACCHANGER" ];
 
 elif [ "$ANSWER" == "$ANSWER_IPSPOOF" ];
 	then
-	echo -e "\e[0;33mJarvisH: Now loading a website for IPspoofing please note all files are allready installed though Jarvis";
+	echo -e "\e[0;33mJarvisH: Now loading a website for IPspoofing."
+	echo -e "Please note all files are already installed though Jarvis";
+	sleep 1
 	xdg-open http://kanishkashowto.com/2013/10/18/how-to-spoof-your-ip-address-on-kali-linux/
-	sleep 2
+	sleep 1
 
 
 elif [ "$ANSWER" == "$ANSWER_MAINMENU" ]; 

@@ -14,7 +14,7 @@ echo -e "\e[0;32mJarvisS: Availabe Manual Options:
    |                                       |
    |              13)Archers               |
    |                                       |
-   |               9)Jarvis                |
+   |            9)Jarvis Family            |
    |                                       |
    |               7)Exier                 |
    |                                       |

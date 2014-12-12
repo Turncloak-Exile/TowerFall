@@ -4,7 +4,6 @@ ANSWER_MEMORYUSAGE="1"
 ANSWER_ZAPPER="2"
 ANSWER_WIRESARK="3"
 ANSWER_WALLPAPERCHANGER="7"
-ANSWER_FORMATTOOL="8"
 ANSWER_MAINMENU="10"
 
 until [ "$ANSWER" == "$MAINMENU" ];
@@ -16,54 +15,43 @@ sleep 2
 echo -e "\e[1;34mJarvis: Available Options: 
 
 1)MemoryUsage
-2)ZapperPID
+2)JarvisZ
 3)Wireshark
-4)
-5)
-6)
 7)Wallpaper Changer
-8)Formatting Tool
-9)
 10) Main Menu";
 
 read "ANSWER"
 
 if [ "$ANSWER" == "$ANSWER_MEMORYUSAGE" ]; 
-then
+	then
 	echo -e "\e[1;34mJarvis: Now loading MemoryUsage";
 	sleep 2
-	exier/options/tools/memoryusage.sh
+	exier/options/mydevices/memoryusage.sh
 	sleep 2
 
 
-elif [ "$ANSWER" == "$ANSWER_ZAPPER" ]; then
-	echo -e "\e[1;34mJarvis: Now loading Zapper.sh";
+elif [ "$ANSWER" == "$ANSWER_ZAPPER" ]; 
+	then
+	echo -e "\e[1;34mJarvis: Now loading JarvisZ";
 	sleep 2
-	exier/options/tools/zapper.sh
+	exier/options/jarvis/JarvisZ.sh
 	sleep 2
 
 elif [ "$ANSWER" == "$ANSWER_WIRESARK" ]; 
-then
+	then
 	echo -e "\e[1;34mJarvis: Now loading Wireshark";
 	sleep 2
 	exier/options/tools/wireshark.sh
 
 elif [ "$ANSWER" == "$ANSWER_WALLPAPERCHANGER" ]; 
-then
+	then
 	echo -e "\e[1;34mJarvis: Now loading Wallpaper Changer";
 	sleep 2
 	exier/options/tools/wallpaperchanger.sh
 	sleep 2
 
-elif [ "$ANSWER" == "$ANSWER_FORMATTOOL" ]; 
-then
-	echo -e "\e[1;34mJarvis: Now loading Format tool";
-	sleep 2
-	exier/options/tools/formattool.sh
-	sleep 2
-
 elif [ "$ANSWER" == "$ANSWER_MAINMENU" ]; 
-then
+	then
 	echo -e "\e[1;34mJarvis: Now loading Main Menu";
 	sleep 2
 

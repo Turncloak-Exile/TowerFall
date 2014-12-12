@@ -5,8 +5,6 @@ ANSWER_CRACKPASSHASH="2"
 ANSWER_DOS="3"
 ANSWER_METASPLOIT="4"
 ANSWER_SQLMAP="5"
-
-
 echo "
  ______                                         ______
 |      /_______________________________________\      |

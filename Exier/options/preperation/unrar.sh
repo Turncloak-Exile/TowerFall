@@ -17,8 +17,6 @@ if [ "$ANSWER" == "$ANSWER_YES" ];
 	sleep 1
 	exier/options/scripts/unraryes.sh
 
-
-
 elif [ "$ANSWER" == "$ANSWER_NO" ];
 	then
 	sleep 1		

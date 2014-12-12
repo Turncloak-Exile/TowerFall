@@ -17,10 +17,6 @@ echo -e "\e[1;34mOptions available:
 3) Maccrevoke
 4) Memory Usage
 5) Device Information
-6)
-7)
-8)
-9) 
 10)Main menu\e[0m"
 read ANSWER
 

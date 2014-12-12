@@ -1,8 +1,5 @@
 #!/bin/bash
 
-ANSWER_="4"
-ANSWER_="3"
-ANSWER_="1"
 ANSWER_MAIN_MENU="2"
 
 echo -e "\e[1;38mJarvisE: Now loading Jarvis Education";

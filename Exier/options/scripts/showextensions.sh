@@ -24,8 +24,6 @@ echo -e "\e[0;32mJarvisP: Available Extensions to Install to Kali HDD:
 5)Install QBittorrent
 6)Install Youtube Downloader
 7)Install Qmpp
-8)
-9)
 10)Main Menu";
 
 read ANSWER

@@ -10,8 +10,6 @@ until [ "$ANSWER" == "$ANSWER_EXIERMENU" ];
 do    
 
 sleep 1
-echo -e "\e[0;31mArchives Archer: Loading libary";
-sleep 1
 echo -e "\e[0;31mArchives Archer: Archives Available:
 
     _______________________________________ 

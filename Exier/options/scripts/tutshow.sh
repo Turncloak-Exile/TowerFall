@@ -1,7 +1,6 @@
 #!/bin/bash
 
 ANSWER_JARVISH="1"
-ANSWER_HELPBOT="2"
 ANSWER_EXIT="10"
 ANSWER_MAINMENU="9"
 
@@ -13,17 +12,8 @@ echo -e "\e[1;34mJarvis: Now loading Tutorials";
 sleep 1
 echo -e "\e[1;34mOptions available:
 1) JarvisH
-2) 
-3)
-4)
-5)
-6)
-7)
-8)
 9) Main menu
 10) EXIT";
-
-
 
 read ANSWER
 

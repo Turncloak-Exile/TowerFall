@@ -60,15 +60,7 @@ elif [ "$ANSWER" == "$ANSWER_MEMORYUSAGE" ];
 	sleep 1
 	echo -e "\e[1;34mJarvis: Now loading Memory Usage";
 	sleep 1
-	exier/options/utilities/memoryusage.sh
-	sleep 1
-
-elif [ "$ANSWER" == "$ANSWER_HDDSTORAGE" ];
-	then
-	sleep 1
-	echo -e "\e[1;34mJarvis: Now loading HDD Storage";
-	sleep 1
-	exier/options/utilities/hddstorage.sh
+	exier/options/mydevices/memoryusage.sh
 	sleep 1
 
 elif [ "$ANSWER" == "$ANSWER_NETWORKINFORMATION" ];
@@ -76,22 +68,47 @@ elif [ "$ANSWER" == "$ANSWER_NETWORKINFORMATION" ];
 	sleep 1
 	echo -e "\e[1;34mJarvis: Now loading Network Information";
 	sleep 1
-	exier/options/utilities/networkinfo.sh
+	ifconfig
+
 	sleep 1
 
 elif [ "$ANSWER" == "$ANSWER_TESTINTERNETCONNECTION" ];
 	then
 	sleep 1
-	echo -e "\e[1;34mJarvis: Now testing internet connection";
+	echo -e "\e[1;34mJarvis: To test your internet connection we can ping our host";
 	sleep 1
-	exier/options/utilities/internettest.sh
+	echo -e "\e[1;34mJarvis: To get our host address we will load ifconfig for network Information";
+	ifconfig
+	echo -e "\e[1;34mJarvis: Now you may see something similer to below";
+	echo -e "\e[1;34mJarvis: Look at (lo) this is our local loopback
+
+	lo 		Link encap:Local loopback
+			inet addr:[Yours will differ]";
+	sleep 2
+	echo -e "\e[1;34mJarvis: Now where it says inet addr: copy the address";
+	sleep 1
+	echo -e "\e[1;34mJarvis: This is our router address. It is we are going to ping";
+	sleep 1
+	echo -e "\e[1;34mJarvis: We PING an address to get a response. The response this time
+	will determine wether or not we have an internet connection";
+	sleep 2
+	echo -e "\e[1;34mJarvis: Im going to open a new terminal and I want you to type:
+
+	ping -c 1 [Your copied address]";
+	sleep 1
+	echo -e "\e[1;34mJarvis: If you recieve an instant response, you are succesfully
+	connected to the internet. Else, try checking your network configuration";
+	sleep 1
 
 elif [ "$ANSWER" == "$ANSWER_TOTALUPTIME" ];
 	then
 	sleep 1
-	echo -e "\e[1;34mJarvis: Now loading Total Uptime Displayer";
+	echo "Calculating Total Uptime since last reboot";
 	sleep 1
-	exier/options/utilities/totaluptime.sh
+	uptime
+	sleep 2
+	echo "Total Uptime Displayed successfully";
+	sleep 1
 
 elif [ "$ANSWER" == "$ANSWER_CREATEBACKUP" ];
 	then
@@ -108,6 +125,5 @@ elif [ "$ANSWER" == "$ANSWER_MAINMENU" ];
 else
 	sleep 1
 	echo -e "\e[1;34mJarvis: Unrecognised response. Returning to Utilities Menu";
-
 fi
 done

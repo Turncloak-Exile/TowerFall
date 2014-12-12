@@ -57,7 +57,7 @@ elif [ "$ANSWER" == "$ANSWER_IP" ];
 	sleep 2
 	echo -e "\e[1;31mJarvisC: Loading Ipspoof.sh \e[0m";
 	sleep 2
-	gnome-terminal -e options/preperation/ipspoof.sh
+	gnome-terminal -e exier/options/preperation/ipspoof.sh
 	sleep 2
 	echo -e "\e[1;31mJarvisC: Press any key to continue";
 	read -p ""
@@ -128,7 +128,7 @@ sleep 2
 echo -e "\e[1;34mJarvis: You are now cloaked to specification.\e[0m";
 sleep 2
 echo -e "\e[1;34mJarvis: Returning to Main menu.\e[0m";
-sleep 2
+
 
 
 	

@@ -20,8 +20,6 @@ until [ "$ANSWER" == "$ANSWER_MAINMENU" ];
 do
 
 sleep 1
-echo -e "\e[0;31mQuest Archer: Loading Quests";
-sleep 2
 echo -e "\e[0;31mQuest Archer: Quests Available:
 
     _______________________________________ 
