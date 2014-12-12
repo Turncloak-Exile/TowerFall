@@ -59,11 +59,11 @@ echo "patch released shortly after.."
 sleep 2
 echo "Ancient Exile and Turncloak Solider hope you enjoy Towerfall operating system"
 sleep 1
-echo "Shoutouts:
-echo 1) Towerfall Acension Developers; Official website - www.towerfall-game.com/"
-echo 2) Ashley Davies chief editor at CBD - Official webisite - www.codebluedigital.com"
+echo "Shoutouts:"
+echo "1) Towerfall Acension Developers; Official website - www.towerfall-game.com/"
+echo "2) Ashley Davies chief editor at CBD - Official webisite - www.codebluedigital.com"
 sleep 3
-echo "This manual will self destruct in 10s"
+echo "This manual will self destruct in 10s";
 sleep 1
 echo 9
 sleep 1

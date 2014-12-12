@@ -2,13 +2,7 @@
 
 ANSWER_JARVIS="1"
 ANSWER_JARVISC="2"
-ANSWER_JARVISS="3"
-ANSWER_JARVISH="4"
 ANSWER_JARVISZ="5"
-ANSWER_JARVISG="6"
-ANSWER_JARVISM="7"
-ANSWER_JARVISI="8"
-ANSWER_JARVISE="9"
 ANSWER_JARVISA="10"
 ANSWER_AIRODUMP="11"
 ANSWER_WORDLISTGEN="12"
@@ -27,22 +21,27 @@ do
 echo -e "\e[1;34mJarvis: Angels available: 
     _______________________________________ 
    |                                       |
+   |        12)Aircrack WordlistGen        |
    |                                       |
+   |              11)Airodump              |
    |                                       |
+   |              13)Aircrack              |
+   |                                       |
+   |             15)Wifi Jammer            |
+   |                                       |
+   |             14)Host Finder            |
+   |                                       |
+   |                101)Back               |
+   |                                       |
+   |                1)Jarvis               |
+   |                                       |
+   |             2)Jarvis Cloaker          |
+   |                                       |
+   |             10)Jarvis Attatck         |
+   |                                       |
+   |              5)Jarvis Zapper          |
    |                                       |
    |_______________________________________|"; 
-
-1)Jarvis 
-2)Jarvis Cloaker
-3)Jarvis Scaner
-5)Jarvis Zapper
-10)Jarvis Attack
-11)Airodump
-12)Aircrack WordlistGen
-13)Aircrack
-14)Host Finder
-15)Wifi Jammer
-101)Previous menu
 
 read ANSWER
 

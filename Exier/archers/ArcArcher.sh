@@ -11,7 +11,7 @@ do
 
 sleep 1
 echo -e "\e[0;31mArchives Archer: Loading libary";
-sleep 2
+sleep 1
 echo -e "\e[0;31mArchives Archer: Archives Available:
 
     _______________________________________ 

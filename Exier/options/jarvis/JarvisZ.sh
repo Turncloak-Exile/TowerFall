@@ -7,7 +7,6 @@ ANSWER_UPDATEREPOSITORIES="4"
 ANSWER_ZAPPER="5"
 ANSWER_TWEAKSOURCELIST="6"
 ANSWER_RESTORE="7"
-ANSWER_FORMATTOOL="8"
 ANSWER_MAINMENU="9"
 
 until [ "$ANSWER" == "ANSWER_MAINMENU" ];
@@ -32,8 +31,6 @@ echo -e "\e[1;33m
    |        6)Tweak Source.list            |
    |                                       |
    |       7)Restore all defaults          |
-   |                                       |
-   |          8)Formatting Tool            |
    |                                       |
    |            9)Main Menu                |
    |                                       |
@@ -65,10 +62,6 @@ elif [ "ANSWER" == "ANSWER_EMPTYWASTEBASKET" ];
 elif [ "ANSWER" == "ANSWER_TWEAKSOURCELIST" ];
 	then
 	exier/options/bullshit/tweaksourcelist.sh
-
-elif [ "ANSWER" == "ANSWER_FORMATTOOL" ];
-	then
-	exier/options/bullshit/formattool.sh
 
 elif [ "ANSWER" == "ANSWER_MAINMENU" ];
 	then

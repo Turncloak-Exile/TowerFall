@@ -40,12 +40,12 @@ echo -e "\e[1;34m 	    		                 JJJJ      AAA  AAA  RR   R     VV     
 echo -e "\e[1;34m                                                                				          \e[0m"
 echo -e "\e[0;33m   >>----------------------------------------------------------------------------------->\e[0m"
 
-sleep 2
+sleep 1
 
 until [ "$ANSWER" == "$ANSWER_EXIT" ];
 do
 
-sleep 2						                                             
+sleep 1						                                             
 echo -e "\e[0;33m                                Press: x to continue   	                              \e[0m"
 echo -e "\e[0;33m	                     	     Press: s for settings				                      \e[0m"	
 echo -e "\e[0;34m	                     	  Press: 10 to exit TowerFall				                  \e[0m"

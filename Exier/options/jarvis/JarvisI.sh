@@ -2,8 +2,6 @@
 
 ANSWER_RAMUSAGE="1"
 ANSWER_HDDSTORAGE="2"
-ANSWER_MEMORYUSAGE="3"
-ANSWER_PARTITIONMANIPULATOR="4"
 ANSWER_READYSETHACK="5"
 ANSWER_READYSETSCRIPT="6"
 ANSWER_READYSETCLOAK="7"
@@ -17,15 +15,11 @@ echo -e "\e[0;37mJarvisI: Hello what type of information do you require?
 	   _______________________________________ 
       |                                       |
       |                                       |
-      |       4)Partition Manipulator         |
-      |                                       |
       |          6)ReadySetScript             |
       |                                       |
       |          7)ReadySetCloak              |
       |                                       |
       |           5)ReadySetHack              |
-      |                                       |
-      |           3)Memory Usage              |
       |                                       |
       |           8)ReadySetZap               |
       |                                       |
@@ -33,7 +27,7 @@ echo -e "\e[0;37mJarvisI: Hello what type of information do you require?
       |                                       |
       |            1)Ram Usage                |
       |                                       |
-      |               10) Exit                |
+      |              10) Exit                 |
       |                                       |
       |            2)HDD Storage              |
       |_______________________________________|";
@@ -51,10 +45,6 @@ elif [ "$ANSWER" == "$ANSWER_HDDSTORAGE" ];
 elif [ "$ANSWER" == "$ANSWER_MEMORYUSAGE" ];
 	then
 	exier/options/information/memoryusage.sh
-
-elif [ "$ANSWER" == "$ANSWER_PARTITIONMANIPULATOR" ];
-	then
-	exier/options/information/partitionmanipulator.sh
 
 elif [ "$ANSWER" == "$ANSWER_READYSETHACK" ];
 	then

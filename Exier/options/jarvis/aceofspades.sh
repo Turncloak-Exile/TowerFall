@@ -1,8 +1,13 @@
 #!/bin/bash
 
-ANSWER_ACEOFSPADES="aceofspades"
+ANSWER_CRACKWIFI="1"
+ANSWER_CRACKPASSHASH="2"
+ANSWER_DOS="3"
+ANSWER_METASPLOIT="4"
+ANSWER_SQLMAP="5"
 
-echo "Jarvis Attack is currently under maintenance
+
+echo "
  ______                                         ______
 |      /_______________________________________\      |
 |     /_________________________________________\     |
@@ -21,18 +26,17 @@ echo "Jarvis Attack is currently under maintenance
 |  |          |          /    \          |         |  |
 |  |          |__________________________|         |  |
 |  |                                               |  |
-|__|            Please Enter Your Code             |__|
+|  |      1) Cracking Wifi WPA/WPA2 Passwords      |  |
+|  |                                               |  |
+|  |           2)Cracking Password Hashes          |  |
+|  |                                               |  |
+|  |               3)DOS/DDOS Attacks              |  |
+|  |                                               |  |
+|  |             4)Metasploit Related              |  |
+|  |                                               |  |
+|  |           5)SQLMap and Google Dorks           |  |
+|__|                                               |__|
 |   \                                             /   |
 |    \___________________________________________/    |
 |     \_________________________________________/     |
 |______\                                       /______|";
-
-read ANSWER 
-
-if [ "$ANSWER" == "$ANSWER_ACEOFSPADES" ];
-	then
-	exier/options/jarvis/aceofspades.sh
-else
-	echo "\e[1;33mKing Code Incorrect";
-fi
-

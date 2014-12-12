@@ -16,7 +16,7 @@ echo "
        /_________/  Written by Ancient Exile";
 
 echo -e "\e[1;33mJarvisZ: Current processes"
-	sleep 0.5
+	sleep 1
 	ps
 	sleep 2
 

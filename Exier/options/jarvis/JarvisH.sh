@@ -12,7 +12,7 @@ ANSWER_EXIT="10"
 until  [ "$ANSWER" == "$ANSWER_MAINMENU" ];
 do
 
-echo -e "\e[1;34mJarvis: Booting JarvisH"
+echo -e "\e[1;34mJarvis: Booting JarvisH";
 sleep 1
 echo -e "\e[0;33m
 
