@@ -26,17 +26,16 @@ echo -e "\e[1;33mKing: We feel its obliged to tell you that Towerfall did not st
 	update.
 10) We wish you all luck on your exploration and hope you try out the PS4 game.";
 sleep 1
-echo -e "\e[1;33mKing: type letsdoit to return to Exier Menu"
+echo -e "\e[1;33mKing: type letsdoit to return to Exier Menu";
 
 read ANSWER
 
 if [ "$ANSWER" == "$ANSWER_LETSDOIT" ];
 	then
-	echo -e "\e[1;33mKing: Returning to Exier Menu"
+	echo -e "\e[1;33mKing: Returning to Exier Menu";
 
 else
-	echo -e "\e[1;33mKing: Unrecognised Response. Reloading OfficialGame.sh"
-
+	echo -e "\e[1;33mKing: Unrecognised Response. Reloading OfficialGame.sh";
 fi
 done
 

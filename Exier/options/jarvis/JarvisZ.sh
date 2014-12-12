@@ -44,15 +44,15 @@ read ANSWER
 
 if [ "ANSWER" == "ANSWER_CLEARHISTORY" ];
 	then
-	options/bullshit/clearhistory.sh
+	exier/options/bullshit/clearhistory.sh
 
 elif [ "ANSWER" == "ANSWER_CLEARINTERNETCACHE" ];
 	then
-	options/bullshit/clearinternetcache.sh
+	exier/options/bullshit/clearinternetcache.sh
 
 elif [ "ANSWER" == "ANSWER_UPDATEREPOSITORIES" ];
 	then
-	options/bullshit/updatereposistories.sh
+	exier/options/bullshit/updatereposistories.sh
 
 elif [ "ANSWER" == "ANSWER_RESTORE" ];
 	then
@@ -60,15 +60,15 @@ elif [ "ANSWER" == "ANSWER_RESTORE" ];
 
 elif [ "ANSWER" == "ANSWER_EMPTYWASTEBASKET" ];
 	then
-	options/bullshit/emptywastebasket.sh
+	exier/options/bullshit/emptywastebasket.sh
 
 elif [ "ANSWER" == "ANSWER_TWEAKSOURCELIST" ];
 	then
-	options/bullshit/tweaksourcelist.sh
+	exier/options/bullshit/tweaksourcelist.sh
 
 elif [ "ANSWER" == "ANSWER_FORMATTOOL" ];
 	then
-	options/bullshit/formattool.sh
+	exier/options/bullshit/formattool.sh
 
 elif [ "ANSWER" == "ANSWER_MAINMENU" ];
 	then

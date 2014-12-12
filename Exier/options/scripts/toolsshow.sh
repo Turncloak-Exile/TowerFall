@@ -11,7 +11,7 @@ until [ "$ANSWER" == "$MAINMENU" ];
 do
 
 sleep 1
-echo -e "\e[1;34mJarvis: Loading Tools"
+echo -e "\e[1;34mJarvis: Loading Tools";
 sleep 2 
 echo -e "\e[1;34mJarvis: Available Options: 
 
@@ -24,51 +24,51 @@ echo -e "\e[1;34mJarvis: Available Options:
 7)Wallpaper Changer
 8)Formatting Tool
 9)
-10) Main Menu"
+10) Main Menu";
 
 read "ANSWER"
 
 if [ "$ANSWER" == "$ANSWER_MEMORYUSAGE" ]; 
 then
-	echo -e "\e[1;34mJarvis: Now loading MemoryUsage"
+	echo -e "\e[1;34mJarvis: Now loading MemoryUsage";
 	sleep 2
-	options/tools/memoryusage.sh
+	exier/options/tools/memoryusage.sh
 	sleep 2
 
 
 elif [ "$ANSWER" == "$ANSWER_ZAPPER" ]; then
-	echo -e "\e[1;34mJarvis: Now loading Zapper.sh"
+	echo -e "\e[1;34mJarvis: Now loading Zapper.sh";
 	sleep 2
-	options/tools/zapper.sh
+	exier/options/tools/zapper.sh
 	sleep 2
 
 elif [ "$ANSWER" == "$ANSWER_WIRESARK" ]; 
 then
-	echo -e "\e[1;34mJarvis: Now loading Wireshark"
+	echo -e "\e[1;34mJarvis: Now loading Wireshark";
 	sleep 2
-	options/tools/wireshark.sh
+	exier/options/tools/wireshark.sh
 
 elif [ "$ANSWER" == "$ANSWER_WALLPAPERCHANGER" ]; 
 then
-	echo -e "\e[1;34mJarvis: Now loading Wallpaper Changer"
+	echo -e "\e[1;34mJarvis: Now loading Wallpaper Changer";
 	sleep 2
-	options/tools/wallpaperchanger.sh
+	exier/options/tools/wallpaperchanger.sh
 	sleep 2
 
 elif [ "$ANSWER" == "$ANSWER_FORMATTOOL" ]; 
 then
-	echo -e "\e[1;34mJarvis: Now loading Format tool"
+	echo -e "\e[1;34mJarvis: Now loading Format tool";
 	sleep 2
-	options/tools/formattool.sh
+	exier/options/tools/formattool.sh
 	sleep 2
 
 elif [ "$ANSWER" == "$ANSWER_MAINMENU" ]; 
 then
-	echo -e "\e[1;34mJarvis: Now loading Main Menu"
+	echo -e "\e[1;34mJarvis: Now loading Main Menu";
 	sleep 2
 
 else
-	echo -e "\e[1;34mJarvis: Unrecognised response. Reloading Options"
+	echo -e "\e[1;34mJarvis: Unrecognised response. Reloading Options";
 	sleep 2
 fi
 done 

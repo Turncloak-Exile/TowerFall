@@ -27,7 +27,7 @@ read ANSWER
 if [ "$ANSWER" == "$ANSWER_IPCHECK" ]; then
 	echo -e "\e[1;34mJarvis: Now loading ipchecker.sh"
 	sleep 2
-	options/mydevices/ipcheck.sh
+	exier/options/mydevices/ipcheck.sh
 	sleep 2
 	
 
@@ -36,24 +36,24 @@ elif [ "$ANSWER" == "$ANSWER_MACCREVOKE" ];
 then
 	echo -e "\e[1;34mJarvis: Now loading maccrevoke.sh"
 	sleep 2
-	options/mydevices/maccrevoke.sh
+	exier/options/mydevices/maccrevoke.sh
 
 elif [ "$ANSWER" == "$ANSWER_MACCHECK" ]; 
 then
 	echo -e "\e[1;34mJarvis: Now loading macchecker.sh"
 	sleep 2
-	options/mydevices/macchecker.sh
+	exier/options/mydevices/macchecker.sh
 
 elif [ "$ANSWER" == "$ANSWER_MEMORYUSAGE" ]; 
 then
 	echo -e "\e[1;34mJarvis: Now loading MemoryUsage.sh"
 	sleep 2
-	options/mydevices/memoryusage.sh
+	exier/options/mydevices/memoryusage.sh
 
 elif [ "$ANSWER" == "$ANSWER_DEVICEINFO" ]; 
 then
 	sleep 2
-	options/mydevices/deviceinfo.sh
+	exier/options/mydevices/deviceinfo.sh
 
 elif [ "$ANSWER" == "$ANSWER_MAINMENU" ]; 
 then
@@ -69,5 +69,4 @@ else
 	echo -e "\e[1;34mJarvis: Unrecognised response. Returning to Main menu"
 
 fi
-
 done

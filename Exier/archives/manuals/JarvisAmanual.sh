@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 echo -e "\e[1;31m
       JJJJJJJJ    AA     RRRRR   VV    VV  II  SSSSSSSS
           JJ     AAAA    RR  RR   V    V   II  SS

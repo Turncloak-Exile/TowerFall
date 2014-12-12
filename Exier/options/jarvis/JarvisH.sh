@@ -69,13 +69,13 @@ if [ "$ANSWER" == "$ANSWER_SETUP" ];
 	sleep 3
 	echo "\e[0;33mJarvisH: Now loading options for setting up Kali";
 	sleep 1
-	options/tutorials/settingupkali.sh
+	exier/options/tutorials/settingupkali.sh
 
 
 elif [ "$ANSWER" == "$ANSWER_RUNNINGSCRIPTS" ]; 
 	then
 	echo -e "\e[0;32mSystem: Now loading options for running scripts in kali";
-	options/tutorials/runningscripts.sh
+	exier/options/tutorials/runningscripts.sh
 	sleep 1
 
 elif [ "$ANSWER" == "$ANSWER_STARTBASH" ];

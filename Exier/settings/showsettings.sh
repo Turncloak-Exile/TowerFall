@@ -35,7 +35,7 @@ elif [ "$ANSWER" == "$ANSWER_EXIERMENU" ];
   echo -e "\e[1;33mKing: Returning to Exier Menu";
   
 else
-  echo -e "\e[1;33mKing: Unrecognised Response. Reloading Settings"
+  echo -e "\e[1;33mKing: Unrecognised Response. Reloading Settings";
   
 fi
 done

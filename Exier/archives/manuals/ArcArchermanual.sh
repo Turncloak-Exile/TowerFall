@@ -1,4 +1,4 @@
 #!/bin/bash
 
-echo Archive Archer is currently under going maintenance
-sleep 2
+echo "the Manual for this option is ucrrently under going maintenacne"
+sleep 1

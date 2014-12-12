@@ -100,65 +100,65 @@ read ANSWER
 if [ "$ANSWER" == "$ANSWER_GENERAL" ]; 
 	then
 	sleep 1
-	options/scripts/generalshow.sh
+	exier/options/scripts/generalshow.sh
 	sleep 2
 
 elif [ "$ANSWER" == "$ANSWER_TUTORIALS" ];
 	then
 	sleep 1		
-	options/scripts/tutshow.sh
+	exier/options/scripts/tutshow.sh
 
 elif [ "$ANSWER" == "$ANSWER_ANGELS" ];
 	then
 	sleep 1		
-	options/angels/showangels.sh
+	exier/options/angels/showangels.sh
 
 elif [ "$ANSWER" == "$ANSWER_EXTENSIONS" ];
 	then
 	sleep 1		
-	options/scripts/showextensions.sh
+	exier/options/scripts/showextensions.sh
 
 elif [ "$ANSWER" == "$ANSWER_MYDEVICE" ];
 	then
 	sleep 1		
-	options/scripts/mydeviceshow.sh
+	exier/options/scripts/mydeviceshow.sh
 
 elif [ "$ANSWER" == "$ANSWER_FAQHELP" ];
 	then
 	sleep 1		
-	options/scripts/helpshow.sh
+	exier/options/scripts/helpshow.sh
 
 elif [ "$ANSWER" == "$ANSWER_STATISTICS" ];
 	then
 	sleep 1		
-	options/scripts/statshow.sh
+	exier/options/scripts/statshow.sh
 
 
 elif [ "$ANSWER" == "$ANSWER_SHORTCUT" ];
 	then
 	sleep 1
-	options/scripts/shortcuts.sh
+	exier/options/scripts/shortcuts.sh
 
 elif [ "$ANSWER" == "$ANSWER_TOOLS" ];
 	then
 	sleep 1		
-	options/scripts/toolsshow.sh
+	exier/options/scripts/toolsshow.sh
 
 
 elif [ "$ANSWER" == "$ANSWER_UTILITIES" ];
 	then
 	sleep 1		
-	options/scripts/utilitiesshow.sh
+	exier/options/scripts/utilitiesshow.sh
 
 elif [ "$ANSWER" == "$ANSWER_INFORMATION" ];
 	then
 	sleep 1		
-	options/jarvis/JarvisI.sh
+	exier/options/jarvis/JarvisI.sh
 
 elif [ "$ANSWER" == "$ANSWER_CREDITS" ];
 	then
 	sleep 1		
-	options/credits/creditsJ.sh
+	exier/options/credits/creditsJ.sh
 
 
 elif [ "$ANSWER" == "$ANSWER_EXIT" ];
@@ -173,12 +173,12 @@ then
 elif [ "$ANSWER" == "$ANSWER_REBOOT" ];
 	then
 	sleep 1		
-	options/reboot/reboot.sh
+	exier/options/reboot/reboot.sh
 
 elif [ "$ANSWER" == "$ANSWER_INFORMATION" ];
 	then
 	sleep 1		
-	options/jarvis/JarvisI.sh
+	exier/options/jarvis/JarvisI.sh
 
 else 	
 	sleep 1

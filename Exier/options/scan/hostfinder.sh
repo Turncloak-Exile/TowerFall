@@ -1,5 +1,4 @@
 #!/bin/bash
 
-echo Host finder currently under going maintenance
-
-
+echo "Host Finder is ucrrently under going maintenacne";
+sleep 1

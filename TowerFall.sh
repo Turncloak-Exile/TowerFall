@@ -38,7 +38,7 @@ echo -e "\e[1;34m	          		                 JJ     AAAAAA   RRRR      V  V   
 echo -e "\e[1;34m	>>---Ancient Exile---->      JJ  JJ     AA  AA   RR  R     VVVV    II  SSSSSSSS       \e[0m"
 echo -e "\e[1;34m 	    		                 JJJJ      AAA  AAA  RR   R     VV     II  SSSSSSSS       \e[0m"
 echo -e "\e[1;34m                                                                				          \e[0m"
-echo -e "\e[0;33    >>----------------------------------------------------------------------------------->\e[0m"
+echo -e "\e[0;33m   >>----------------------------------------------------------------------------------->\e[0m"
 
 sleep 2
 

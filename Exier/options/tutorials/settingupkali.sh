@@ -1,3 +1,4 @@
 #!/bin/bash
 
-echo Tutorial for running scripts is currently under going maintenance
+echo "Tutorial for seting up kali is currently under going development";
+sleep 1

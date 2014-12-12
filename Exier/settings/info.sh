@@ -38,10 +38,10 @@ elif [ "$ANSWER" == "$ANSWER_NOTES" ];
 
 elif [ "$ANSWER" == "$ANSWER_BACK" ];
   then
-  echo -e "\e[1;33mKing: Returning to Settings Menu"
+  echo -e "\e[1;33mKing: Returning to Settings Menu";
 
 else
-  echo -e "\e[1;33mKing: Unrecognised Response. Reloading Options."
+  echo -e "\e[1;33mKing: Unrecognised Response. Reloading Options.";
   
 fi
 done

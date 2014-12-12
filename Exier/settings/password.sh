@@ -24,8 +24,8 @@ ANSWER_BACK="back"
 until [ "$ANSWER" == "$ANSWER_BACK" ];
 do
 
-echo -e "\e[1;33mKing: Do put spaces inbetween numbers! type back to return to Settings"
-echo -e "\e[1;33mKing: Please Enter password for desired Menu"
+echo -e "\e[1;33mKing: Do put spaces inbetween numbers! type back to return to Settings";
+echo -e "\e[1;33mKing: Please Enter password for desired Menu";
 
 read ANSWER
 

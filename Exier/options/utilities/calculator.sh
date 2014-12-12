@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo Calculator is currently under going maintenance
-sleep 3
-echo Returning to main menu
+echo "Calculter is Currently under going maintenance";
+sleep 2
+echo "Returning to Main menu";
 sleep 2

@@ -1,6 +1,7 @@
 #!/bin/bash
 
-echo Calender is currently under going maintenance
-sleep 3
-echo Returning to main menu
-sleep 2
+echo "Displaying Calender";
+cal
+sleep 1 
+echo "Returning to Main menu";
+sleep 1

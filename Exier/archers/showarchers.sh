@@ -23,6 +23,7 @@ echo -e "\e[1;32mExier: Archers Available:
    |                                       |
    |              10)Main Menu             |
    |                                       |
+   |               3)VsArcher              |
    |_______________________________________|";
 
 read ANSWER

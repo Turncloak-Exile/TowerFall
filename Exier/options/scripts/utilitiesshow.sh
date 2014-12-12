@@ -14,7 +14,7 @@ ANSWER_MAINMENU="10"
 until [ "$ANSWER" == "$ANSWER_MAINMENU" ];
 do
 
-echo -e "\e[1;34mJarvis: Now loading Utilities "
+echo -e "\e[1;34mJarvis: Now loading Utilities ";
 sleep 1
 echo -e "\e[1;34mAvailable Options:
 1) Calender
@@ -26,88 +26,88 @@ echo -e "\e[1;34mAvailable Options:
 7) Test Internet Connection
 8) Total Uptime
 9) Create Backup
-10) Main Menu"
+10) Main Menu";
 
 read ANSWER
 
 if [ "$ANSWER" == "$ANSWER_CALENDER" ];
 	then
-	sleep 0.5
-	echo -e "\e[1;34mJarvis: Now loading Calender"
+	sleep 1
+	echo -e "\e[1;34mJarvis: Now loading Calender";
 	sleep 1
 	cal
 	sleep 1
 
 elif [ "$ANSWER" == "$ANSWER_CLOCK" ];
 	then
-	sleep 0.5
-	echo -e "\e[1;34mJarvis: Now loading Clock"
+	sleep 1
+	echo -e "\e[1;34mJarvis: Now loading Clock";
 	sleep 1
 	date
 	sleep 1
 
 elif [ "$ANSWER" == "$ANSWER_CALCULATOR" ];
 	then
-	sleep 0.5
-	echo -e "\e[1;34mJarvis: Now loading Desktop Calculator"
+	sleep 1
+	echo -e "\e[1;34mJarvis: Now loading Desktop Calculator";
 	sleep 1
 	dc
-	echo -e "\e[1;34mJarvis: Desktop Calculator is currently undergoing maintenance"
+	echo -e "\e[1;34mJarvis: Desktop Calculator is currently undergoing maintenance";
 	sleep 1	
 
 elif [ "$ANSWER" == "$ANSWER_MEMORYUSAGE" ];
 	then
-	sleep 0.5
-	echo -e "\e[1;34mJarvis: Now loading Memory Usage"
 	sleep 1
-	options/utilities/memoryusage.sh
+	echo -e "\e[1;34mJarvis: Now loading Memory Usage";
+	sleep 1
+	exier/options/utilities/memoryusage.sh
 	sleep 1
 
 elif [ "$ANSWER" == "$ANSWER_HDDSTORAGE" ];
 	then
-	sleep 0.5
-	echo -e "\e[1;34mJarvis: Now loading HDD Storage"
 	sleep 1
-	options/utilities/hddstorage.sh
+	echo -e "\e[1;34mJarvis: Now loading HDD Storage";
+	sleep 1
+	exier/options/utilities/hddstorage.sh
 	sleep 1
 
 elif [ "$ANSWER" == "$ANSWER_NETWORKINFORMATION" ];
 	then
-	sleep 0.5
-	echo -e "\e[1;34mJarvis: Now loading Network Information"
 	sleep 1
-	options/utilities/networkinfo.sh
+	echo -e "\e[1;34mJarvis: Now loading Network Information";
+	sleep 1
+	exier/options/utilities/networkinfo.sh
 	sleep 1
 
 elif [ "$ANSWER" == "$ANSWER_TESTINTERNETCONNECTION" ];
 	then
-	sleep 0.5
-	echo -e "\e[1;34mJarvis: Now testing internet connection"
 	sleep 1
-	options/utilities/internettest.sh
+	echo -e "\e[1;34mJarvis: Now testing internet connection";
+	sleep 1
+	exier/options/utilities/internettest.sh
 
 elif [ "$ANSWER" == "$ANSWER_TOTALUPTIME" ];
 	then
-	sleep 0.5
-	echo -e "\e[1;34mJarvis: Now loading Total Uptime Displayer"
 	sleep 1
-	options/utilities/totaluptime.sh
+	echo -e "\e[1;34mJarvis: Now loading Total Uptime Displayer";
+	sleep 1
+	exier/options/utilities/totaluptime.sh
 
 elif [ "$ANSWER" == "$ANSWER_CREATEBACKUP" ];
 	then
-	sleep 0.5
-	echo -e "\e[1;34mJarvis: Now loading Backup Creater"
 	sleep 1
-	options/utilities/backup.sh
+	echo -e "\e[1;34mJarvis: Now loading Backup Creater";
+	sleep 1
+	exier/options/utilities/backup.sh
 
 elif [ "$ANSWER" == "$ANSWER_MAINMENU" ];
 	then
-	sleep 0.5
-	echo -e "\e[1;34mJarvis: Now loading Main Menu"
+	sleep 1
+	echo -e "\e[1;34mJarvis: Now loading Main Menu";
 	sleep 1
 else
-	sleep 0.5
-	echo -e "\e[1;34mJarvis: Unrecognised response. Returning to Utilities Menu"
+	sleep 1
+	echo -e "\e[1;34mJarvis: Unrecognised response. Returning to Utilities Menu";
 
 fi
 done

@@ -1,9 +1,9 @@
 #!/bin/bash
 
-echo Calculating Total Uptime since last reboot
-sleep 2
-uptime
+echo "Calculating Total Uptime since last reboot";
 sleep 1
-echo Total Uptime Displayed successfully
-echo Returning to Main menu
+uptime
 sleep 2
+echo "Total Uptime Displayed successfully";
+echo "Returning to Main menu";
+sleep 1

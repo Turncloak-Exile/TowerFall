@@ -39,7 +39,7 @@ if [ "$ANSWER" == "$ANSWER_CHECK" ];
 	then
 	echo -e "\e[1;31mJarvisC: Loading Ipchecker.sh";
 	sleep 2 
-	options/preperation/ipcheck.sh
+	exier/options/preperation/ipcheck.sh
 	sleep 1
 	echo "Checking complete successfully.";
 
@@ -48,7 +48,7 @@ elif [ "$ANSWER" == "$ANSWER_MAC" ];
 	then
 	echo -e "\e[1;31mJarvisC: Loading Macchanger.sh";
 	sleep 2 
-	options/preperation/macchanger.sh
+	exier/options/preperation/macchanger.sh
 	sleep 1
 	echo -e "\e[1;31mJarvisC: Macchanger.sh completed successfully";
 
@@ -70,7 +70,7 @@ elif [ "$ANSWER" == "$ANSWER_ALL" ];
 	sleep 2
 	echo -e "\e[1;31mJarvisC: We will begin with changing our macc address..\e[0m";
 	sleep 2
-	options/preperation/macchanger.sh
+	exier/options/preperation/macchanger.sh
 	sleep 2
 	echo -e "\e[1;31mJarvisC: Macchanger.sh completed successfully.\e[0m";
 	sleep 2
@@ -88,16 +88,14 @@ elif [ "$ANSWER" == "$ANSWER_ALL" ];
 	sleep 5
 	echo -e "\e[1;31mJarvisC: Loading Noping.sh\e[0m";
 	sleep 2
-	options/preperation/noping.sh
+	exier/options/preperation/noping.sh
 	sleep 2
 	echo -e "\e[1;31mJarvisC: Right, so now we have a spoofed Macc address, spoofed Ip address and we are denying ping requests. Last but not least we need to change our hostname to something more blendable.\e[0m";
 	sleep 1
 	echo -e "\e[1;31mJarvisC: Loading hostchanger.sh\e[0m";
 	sleep 2
-	options/preperation/hostchanger.sh
+	exier/options/preperation/hostchanger.sh
 	
-
-
 elif [ "$ANSWER" == "$ANSWER_EXIT" ]; 
 	then
 	sleep 1
@@ -107,7 +105,7 @@ elif [ "$ANSWER" == "$ANSWER_PING" ];
 	sleep 1
 	echo -e "\e[1;31mJarvisC: Now loading noping.sh \e[0m";
 	sleep 2
-	options/preperation/noping.sh
+	exier/options/preperation/noping.sh
 	sleep 1
 
 elif [ "$ANSWER" == "$ANSWER_HOST" ]; 
@@ -115,17 +113,14 @@ elif [ "$ANSWER" == "$ANSWER_HOST" ];
 	sleep 1
 	echo -e "\e[1;31mJarvisC: Now loading hostchanger.sh \e[0m";
 	sleep 2
-	options/preperation/hostchanger.sh
+	exier/options/preperation/hostchanger.sh
 	sleep 1
 
-		
 else 
 	echo -e "\e[1;31mJarvisC: Unrecogonised response.\e[0m";
 	sleep 1
 	echo -e "\e[1;31mJarvisC: Returning to Main menu.\e[0m";
 	sleep 2
-	
-
 fi
 done 
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo Currently undergoing Maintenance
-sleep 1
-echo Returning to previous menu in 5 seconds
-sleep 4
+echo "Inernet connection test is Currently under going maintenance";
+sleep 2
+echo "Returning to Main menu";
+sleep 2

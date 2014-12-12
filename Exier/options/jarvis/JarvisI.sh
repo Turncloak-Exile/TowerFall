@@ -42,35 +42,35 @@ read ANSWER
 
 if [ "$ANSWER" == "$ANSWER_RAMUSAGE" ]; 
 	then
-	options/information/ramusage.sh
+	exier/options/information/ramusage.sh
 
 elif [ "$ANSWER" == "$ANSWER_HDDSTORAGE" ];
 	then
-	options/information/hddstorage.sh
+	exier/options/information/hddstorage.sh
 
 elif [ "$ANSWER" == "$ANSWER_MEMORYUSAGE" ];
 	then
-	options/information/memoryusage.sh
+	exier/options/information/memoryusage.sh
 
 elif [ "$ANSWER" == "$ANSWER_PARTITIONMANIPULATOR" ];
 	then
-	options/information/partitionmanipulator.sh
+	exier/options/information/partitionmanipulator.sh
 
 elif [ "$ANSWER" == "$ANSWER_READYSETHACK" ];
 	then
-	options/information/readysethack.sh
+	exier/options/information/readysethack.sh
 
 elif [ "$ANSWER" == "$ANSWER_READYSETSCRIPT" ];
 	then
-	options/information/readysetscripts.sh
+	exier/options/information/readysetscripts.sh
 
 elif [ "$ANSWER" == "$ANSWER_READYSETCLOAK" ];
 	then
-	options/jarvis/JarvisC.sh
+	exier/options/jarvis/JarvisC.sh
 
 elif [ "$ANSWER" == "$ANSWER_READYSETZAP" ];
 	then
-	options/jarvis/JarvisZ.sh
+	exier/options/jarvis/JarvisZ.sh
 
 elif [ "$ANSWER" == "$ANSWER_MAINMENU" ];
 	then
